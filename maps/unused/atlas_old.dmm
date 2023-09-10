@@ -26,7 +26,7 @@
 /turf/simulated/wall/auto/reinforced/supernorn/the_tuff_stuff,
 /area/station/security/detectives_office)
 "ag" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	icon_state = "space";
 	name = "VACUUM AREA"
@@ -230,14 +230,14 @@
 /turf/simulated/floor/plating,
 /area/station/chapel/office)
 "aM" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'COLLISION HAZARD'";
 	name = "COLLISION HAZARD"
 	},
 /turf/simulated/wall/auto/reinforced/supernorn/the_tuff_stuff,
 /area/station/quartermaster/office)
 "aN" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	icon_state = "space";
 	name = "VACUUM AREA"
@@ -422,7 +422,7 @@
 /turf/simulated/floor/plating/random,
 /area/station/quartermaster/office)
 "bo" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	icon_state = "space";
 	name = "VACUUM AREA"
@@ -459,7 +459,7 @@
 /turf/simulated/floor/white/checker,
 /area/station/hallway/secondary/exit)
 "bt" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	icon_state = "space";
 	name = "VACUUM AREA"
@@ -582,7 +582,7 @@
 /turf/simulated/floor,
 /area/station/hallway/secondary/exit)
 "bL" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	icon_state = "space";
 	name = "VACUUM AREA"
@@ -4220,7 +4220,7 @@
 /turf/simulated/floor/carpet/arcade,
 /area/station/bridge/captain)
 "kX" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage"
@@ -4604,7 +4604,7 @@
 /turf/simulated/floor/plating/random,
 /area/station/maintenance/southwest)
 "lQ" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	icon_state = "space";
 	name = "VACUUM AREA"
@@ -5181,7 +5181,7 @@
 	},
 /area/station/mining/staff_room)
 "ni" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon = 'icons/obj/stationobjs.dmi';
 	icon_state = "barsign";
@@ -5443,7 +5443,7 @@
 /turf/simulated/floor/blue,
 /area/station/bridge/customs)
 "nH" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon = 'icons/obj/stationobjs.dmi';
 	icon_state = "barsign";
@@ -5807,7 +5807,7 @@
 	},
 /area/station/hallway/primary/east)
 "oB" = (
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/simulated/wall/auto/reinforced/supernorn/the_tuff_stuff,
 /area/station/turret_protected/Zeta)
 "oC" = (
@@ -7498,7 +7498,7 @@
 /turf/simulated/floor/black,
 /area/station/turret_protected/Zeta)
 "sw" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign telling of the dangers of HEPT emission fields. They are probably not good for you.";
 	name = "Molecular Integrity Hazard"
 	},
@@ -8766,7 +8766,7 @@
 /turf/space,
 /area/station/shield_zone)
 "vv" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	icon_state = "space";
 	name = "VACUUM AREA"
@@ -10487,7 +10487,7 @@
 /turf/simulated/floor/caution/west,
 /area/station/engine/core)
 "zk" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	icon_state = "space";
 	name = "VACUUM AREA"
@@ -12333,7 +12333,7 @@
 /turf/simulated/floor/orangeblack,
 /area/station/engine/engineering)
 "CP" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	icon_state = "space";
 	name = "VACUUM AREA"
@@ -13109,7 +13109,7 @@
 	},
 /area/station/crew_quarters/lounge)
 "Et" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	icon_state = "space";
 	name = "VACUUM AREA"
@@ -13187,7 +13187,7 @@
 	},
 /area/station/bridge)
 "ED" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	icon_state = "space";
 	name = "VACUUM AREA"
@@ -13781,7 +13781,7 @@
 /turf/simulated/floor/plating/random,
 /area/ghostdrone_factory)
 "FS" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	icon_state = "space";
 	name = "VACUUM AREA"
@@ -13797,7 +13797,7 @@
 /turf/simulated/floor/grime,
 /area/ghostdrone_factory)
 "FV" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'Fire Hazard'";
 	icon_state = "fire";
 	layer = 2.5;
@@ -14393,7 +14393,7 @@
 /turf/simulated/floor/plating/random,
 /area/listeningpost/power)
 "HL" = (
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/simulated/shuttle/wall{
 	icon_state = "wall3"
 	},
@@ -14457,7 +14457,7 @@
 	},
 /area/listeningpost)
 "HT" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	icon_state = "space";
 	layer = 2.5;
@@ -14549,7 +14549,7 @@
 	},
 /area/listeningpost)
 "Ig" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage"
@@ -14813,7 +14813,7 @@
 /turf/simulated/floor/redblack,
 /area/listeningpost)
 "IL" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign telling of the dangers of HEPT emission fields. They are probably not good for you.";
 	name = "Molecular Integrity Hazard"
 	},

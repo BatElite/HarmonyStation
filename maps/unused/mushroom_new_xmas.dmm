@@ -919,7 +919,7 @@
 /turf/simulated/floor/plating,
 /area/station/maintenance/northeast)
 "acm" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	icon_state = "space";
 	name = "VACUUM AREA";
@@ -2574,7 +2574,7 @@
 /turf/simulated/floor/airless/plating/damaged1,
 /area/station/solar/east)
 "afC" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	tag = "icon-space";
 	name = "VACUUM AREA";
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
@@ -3953,25 +3953,25 @@
 /area/station/chapel/sanctuary)
 "aiV" = (
 /obj/landmark/magnet_shield,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 1;
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 4;
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 9;
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign. I guess this area is dangerous.";
 	icon_state = "magwarning2";
 	name = "ACTIVE MAGNET AREA"
@@ -3990,7 +3990,7 @@
 	dir = 4
 	},
 /obj/landmark/magnet_shield,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 4;
 	icon_state = "magwarning";
@@ -4253,24 +4253,24 @@
 /area/station/chapel/sanctuary)
 "ajB" = (
 /obj/landmark/magnet_shield,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 4;
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 5;
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign. I guess this area is dangerous.";
 	icon_state = "magwarning2";
 	name = "ACTIVE MAGNET AREA"
@@ -6185,7 +6185,7 @@
 "anq" = (
 /obj/grille/catwalk,
 /obj/landmark/magnet_shield,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 1;
 	icon_state = "magwarning";
@@ -7385,7 +7385,7 @@
 	},
 /area/station/turret_protected/ai_upload_foyer)
 "aqe" = (
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/turret_protected/ai_upload_foyer)
 "aqf" = (
@@ -7689,7 +7689,7 @@
 /turf/simulated/floor/yellow,
 /area/station/engine/engineering)
 "aqM" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign telling of the dangers of gravitational singularities.  Apparently they are dangerous.";
 	name = "Molecular Integrity Hazard"
 	},
@@ -8533,7 +8533,7 @@
 "asC" = (
 /obj/grille/catwalk,
 /obj/landmark/magnet_shield,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
@@ -9463,7 +9463,7 @@
 /turf/simulated/floor,
 /area/station/maintenance/east)
 "auL" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	icon_state = "space";
 	name = "VACUUM AREA";
@@ -9519,7 +9519,7 @@
 	},
 /area/station/engine/engineering)
 "auQ" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage";
@@ -13707,7 +13707,7 @@
 /area/station/mining/magnet)
 "aDS" = (
 /obj/landmark/magnet_shield,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 1;
 	icon_state = "magwarning";
@@ -13719,7 +13719,7 @@
 /area/mining/magnet)
 "aDT" = (
 /obj/landmark/magnet_shield,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
@@ -14481,25 +14481,25 @@
 /area/station/mining/magnet)
 "aFx" = (
 /obj/landmark/magnet_shield,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 1;
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 8;
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 10;
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign. I guess this area is dangerous.";
 	icon_state = "magwarning2";
 	name = "ACTIVE MAGNET AREA"
@@ -15004,7 +15004,7 @@
 	dir = 4
 	},
 /obj/landmark/magnet_shield,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 8;
 	icon_state = "magwarning";
@@ -15278,24 +15278,24 @@
 /area/station/science/chemistry)
 "aGY" = (
 /obj/landmark/magnet_shield,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 8;
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 6;
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign. I guess this area is dangerous.";
 	icon_state = "magwarning2";
 	name = "ACTIVE MAGNET AREA"
@@ -21246,7 +21246,7 @@
 /turf/simulated/floor/snow/snowball,
 /area/station/hallway/primary/west)
 "aSJ" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	name = "VACUUM AREA"
 	},
@@ -21333,7 +21333,7 @@
 /turf/simulated/floor/carpet,
 /area/station/crew_quarters/hor)
 "aSS" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "'";
 	icon_state = "gym";
 	layer = 5;
@@ -30166,7 +30166,7 @@
 /turf/simulated/floor/caution/west,
 /area/listeningpost/power)
 "blj" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage"
@@ -30287,7 +30287,7 @@
 	},
 /area/space)
 "blw" = (
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/simulated/shuttle/wall{
 	icon_state = "wall3"
 	},
@@ -33955,7 +33955,7 @@
 	},
 /area/station/mining/magnet)
 "btA" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage";
@@ -34075,7 +34075,7 @@
 	},
 /area/station/crew_quarters/pool)
 "btQ" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'COLLISION HAZARD'";
 	name = "COLLISION HAZARD"
 	},

@@ -565,7 +565,7 @@
 /turf/space,
 /area/space)
 "abS" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	icon_state = "space";
 	name = "VACUUM AREA"
@@ -1235,7 +1235,7 @@
 /turf/space,
 /area/space)
 "adN" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	icon_state = "space";
 	name = "VACUUM AREA"
@@ -2120,7 +2120,7 @@
 /turf/simulated/floor/scorched2,
 /area/mining/magnet_control)
 "agI" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage"
@@ -2985,7 +2985,7 @@
 /turf/simulated/floor/caution/west,
 /area/mining/miningoutpost)
 "aje" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	icon_state = "space";
 	name = "VACUUM AREA"
@@ -3385,7 +3385,7 @@
 /turf/simulated/floor/delivery,
 /area/space)
 "aks" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	icon_state = "space";
 	name = "VACUUM AREA"
@@ -3397,7 +3397,7 @@
 /turf/simulated/wall/auto/supernorn,
 /area/mining/exit_west)
 "aku" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	icon_state = "space";
 	name = "VACUUM AREA"
@@ -3619,7 +3619,7 @@
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/mining/hangar)
 "ald" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	icon_state = "space";
 	name = "VACUUM AREA"
@@ -4587,7 +4587,7 @@
 /turf/space,
 /area/space)
 "ant" = (
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/debris/derelict_ai_sat/core)
 "anu" = (
@@ -7812,7 +7812,7 @@
 /turf/simulated/floor/plating,
 /area/debris/tech_outpost)
 "avB" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage"
@@ -10655,7 +10655,7 @@
 	},
 /area/debris/abandonedmedicalship)
 "aJT" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "Blue, blue.";
 	icon_state = "med";
 	layer = 9;
@@ -11853,7 +11853,7 @@
 /turf/simulated/floor,
 /area/debris/abandonedoutpostthing)
 "aMP" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "wall_danger";
 	name = "Danger: High Voltage"
@@ -12674,7 +12674,7 @@
 /turf/simulated/floor/plating/scorched,
 /area/debris/derelict_ai_sat)
 "aPg" = (
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/debris/derelict_ai_sat)
 "aPh" = (
@@ -13590,7 +13590,7 @@
 	},
 /area/debris/abandonedship)
 "aRK" = (
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/unsimulated/wall/auto/adventure/shuttle/dark,
 /area/debris/abandonedship)
 "aRL" = (
@@ -14239,7 +14239,7 @@
 	},
 /area/space)
 "aTs" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A poster that reads 'CLEAN HANDS SAVE LIVES'.";
 	icon_state = "chsl";
 	name = "CLEAN HANDS SAVE LIVES";
@@ -14592,7 +14592,7 @@
 /turf/simulated/floor,
 /area/debris/h7)
 "aUn" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	icon_state = "space";
 	name = "VACUUM AREA"
@@ -15171,7 +15171,7 @@
 /area/debris/h7/crew)
 "aVK" = (
 /obj/table/auto,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'Biohazard'";
 	icon_state = "bio";
 	layer = 2.5;
@@ -15372,7 +15372,7 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'Biohazard'";
 	icon_state = "bio";
 	layer = 2.5;
@@ -17449,7 +17449,7 @@
 /turf/simulated/floor/plating,
 /area/debris/h7/lab)
 "bcI" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage"
@@ -17457,7 +17457,7 @@
 /turf/simulated/wall/auto/supernorn,
 /area/debris/h7/lab)
 "bcK" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign telling of the dangers of HEPT emission fields. They are probably not good for you.";
 	name = "Molecular Integrity Hazard"
 	},
@@ -21138,7 +21138,7 @@
 /turf/simulated/floor/black,
 /area/radiostation/serverroom)
 "ghB" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "Blue, blue.";
 	icon_state = "med";
 	layer = 9;
@@ -22515,7 +22515,7 @@
 /turf/unsimulated/floor/specialroom/freezer,
 /area/debris/helldrone)
 "rwl" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'NO TRESPASSING'";
 	name = "NO TRESPASSING";
 	pixel_y = 32

@@ -4843,7 +4843,7 @@
 /turf/simulated/wall/auto/gannets,
 /area/station/science/gen_storage)
 "anr" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'COLLISION HAZARD'";
 	name = "COLLISION HAZARD"
 	},
@@ -6161,7 +6161,7 @@
 /turf/simulated/floor/airless/solar,
 /area/space)
 "arg" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'COLLISION HAZARD'";
 	name = "COLLISION HAZARD"
 	},
@@ -6177,7 +6177,7 @@
 /turf/simulated/wall/auto/gannets,
 /area/space)
 "arh" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'COLLISION HAZARD'";
 	name = "COLLISION HAZARD"
 	},
@@ -6465,7 +6465,7 @@
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/hangar/arrivals)
 "arS" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	icon_state = "space";
 	name = "VACUUM AREA"
@@ -6593,7 +6593,7 @@
 /turf/simulated/floor/plating/random,
 /area/station/storage/tools)
 "asj" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "It looks pretty dangerous in there.";
 	name = "HAZARDOUS AREA"
 	},
@@ -7405,7 +7405,7 @@
 /turf/simulated/floor,
 /area/station/hangar/arrivals)
 "auO" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "It looks pretty dangerous in there.";
 	name = "HAZARDOUS AREA"
 	},
@@ -10431,7 +10431,7 @@
 /turf/simulated/shuttle/wall/cockpit,
 /area/shuttle/arrival/station)
 "aDh" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "It looks pretty dangerous in there.";
 	name = "HAZARDOUS AREA"
 	},
@@ -11361,7 +11361,7 @@
 	},
 /area/shuttle/arrival/station)
 "aFB" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'COLLISION HAZARD'";
 	name = "COLLISION HAZARD"
 	},
@@ -12300,7 +12300,7 @@
 /turf/simulated/floor/carpet/blue/fancy/edge,
 /area/station/crew_quarters/hor)
 "aHX" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "It looks pretty dangerous in there.";
 	name = "CONDEMNED"
 	},
@@ -12397,7 +12397,7 @@
 	},
 /area/station/maintenance/northwest)
 "aIi" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "It looks pretty dangerous in there.";
 	name = "HAZARDOUS AREA"
 	},
@@ -18794,25 +18794,25 @@
 	icon_state = "catwalk_cross"
 	},
 /obj/landmark/magnet_shield,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 1;
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 4;
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 9;
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign. I guess this area is dangerous.";
 	icon_state = "magwarning2";
 	name = "ACTIVE MAGNET AREA"
@@ -18826,7 +18826,7 @@
 	dir = 4
 	},
 /obj/landmark/magnet_shield,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 4;
 	icon_state = "magwarning";
@@ -19305,24 +19305,24 @@
 	icon_state = "catwalk_cross"
 	},
 /obj/landmark/magnet_shield,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 4;
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 5;
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign. I guess this area is dangerous.";
 	icon_state = "magwarning2";
 	name = "ACTIVE MAGNET AREA"
@@ -20065,7 +20065,7 @@
 "bbA" = (
 /obj/grille/catwalk,
 /obj/landmark/magnet_shield,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 1;
 	icon_state = "magwarning";
@@ -20079,7 +20079,7 @@
 "bbC" = (
 /obj/grille/catwalk,
 /obj/landmark/magnet_shield,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
@@ -25540,7 +25540,7 @@
 	dir = 5
 	},
 /obj/landmark/magnet_shield,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 1;
 	icon_state = "magwarning";
@@ -31734,7 +31734,7 @@
 /turf/simulated/floor/plating,
 /area/station/maintenance/disposal)
 "bHl" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "It looks pretty dangerous in there.";
 	name = "HAZARDOUS AREA"
 	},
@@ -33399,7 +33399,7 @@
 	dir = 4
 	},
 /obj/landmark/magnet_shield,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 8;
 	icon_state = "magwarning";
@@ -34001,25 +34001,25 @@
 	icon_state = "catwalk_cross"
 	},
 /obj/landmark/magnet_shield,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 1;
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 8;
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 10;
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign. I guess this area is dangerous.";
 	icon_state = "magwarning2";
 	name = "ACTIVE MAGNET AREA"
@@ -34698,24 +34698,24 @@
 	icon_state = "catwalk_cross"
 	},
 /obj/landmark/magnet_shield,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 8;
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 6;
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign. I guess this area is dangerous.";
 	icon_state = "magwarning2";
 	name = "ACTIVE MAGNET AREA"
@@ -45873,7 +45873,7 @@
 	},
 /area/space)
 "csj" = (
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /obj/map/light/dimreddish,
 /turf/simulated/wall/auto/gannets{
 	name = "WARNING BUOY"
@@ -60530,7 +60530,7 @@
 /turf/simulated/floor/white,
 /area/station/security/brig/genpop)
 "vWx" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "It looks pretty dangerous in there.";
 	name = "HAZARDOUS AREA"
 	},

@@ -2414,7 +2414,7 @@
 "gU" = (
 /obj/table/reinforced,
 /obj/item/device/radio/intercom{
-	
+
 	},
 /obj/item/storage/toolbox/emergency,
 /obj/item/device/radio,
@@ -7052,7 +7052,7 @@
 /area/space)
 "ui" = (
 /turf/simulated/floor/black/side{
-	
+
 	},
 /area/space)
 "uj" = (
@@ -7669,7 +7669,7 @@
 /turf/simulated/floor/caution/west,
 /area/listeningpost)
 "wc" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage"
@@ -7786,7 +7786,7 @@
 /turf/simulated/floor/plating/airless,
 /area/listeningpost)
 "wp" = (
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/simulated/shuttle/wall{
 	icon_state = "wall3"
 	},

@@ -230,7 +230,7 @@
 /turf/simulated/floor/white,
 /area/medical/cdc)
 "aaB" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'Outpost launcher hub'";
 	name = "Outpost launcher hub"
 	},
@@ -542,7 +542,7 @@
 	},
 /area/wizard_station)
 "abk" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'Biohazard'";
 	icon_state = "bio";
 	name = "BIOHAZARD";
@@ -1307,7 +1307,7 @@
 	icon_state = "rwindow";
 	dir = 8
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	tag = "icon-space";
 	name = "VACUUM AREA";
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
@@ -1323,7 +1323,7 @@
 	icon_state = "rwindow";
 	dir = 8
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	tag = "icon-space";
 	name = "VACUUM AREA";
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
@@ -1893,7 +1893,7 @@
 /area/crew_quarters/hor)
 "adU" = (
 /obj/machinery/atmospherics/pipe/simple/insulated,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	name = "VACUUM AREA"
 	},
@@ -2777,7 +2777,7 @@
 	},
 /area/shuttle/research/outpost)
 "afA" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "Research Outpost Zeta";
 	icon_state = "joeq";
 	name = "Research Outpost Zeta";
@@ -2938,7 +2938,7 @@
 /turf/simulated/wall/r_wall,
 /area/crew_quarters/hor)
 "afO" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'Biohazard'";
 	icon_state = "bio";
 	layer = 2.5;
@@ -3092,7 +3092,7 @@
 	icon_state = "rwindow";
 	dir = 4
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	tag = "icon-space";
 	name = "VACUUM AREA";
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
@@ -3605,7 +3605,7 @@
 	icon_state = "rwindow";
 	dir = 4
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	tag = "icon-space";
 	name = "VACUUM AREA";
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
@@ -4787,7 +4787,7 @@
 /turf/simulated/wall/auto/asteroid,
 /area/space)
 "ajb" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	icon_state = "space";
 	layer = 2.5;
@@ -5263,7 +5263,7 @@
 /turf/simulated/floor/white,
 /area/zeta/patients)
 "ajT" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'SECURE AREA, Violators WILL be shot.'"
 	},
 /turf/simulated/wall/r_wall,
@@ -6030,7 +6030,7 @@
 	icon_state = "rwindow";
 	dir = 8
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	tag = "icon-space";
 	name = "VACUUM AREA";
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
@@ -6051,7 +6051,7 @@
 	icon_state = "rwindow";
 	dir = 5
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	tag = "icon-space";
 	name = "VACUUM AREA";
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
@@ -6998,7 +6998,7 @@
 	icon_state = "rwindow";
 	dir = 5
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	tag = "icon-space";
 	name = "VACUUM AREA";
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
@@ -9251,7 +9251,7 @@
 	d1 = 1;
 	d2 = 2
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A poster that reads 'CLEAN HANDS SAVE LIVES'.";
 	icon_state = "chsl";
 	name = "CLEAN HANDS SAVE LIVES";
@@ -11329,7 +11329,7 @@
 "avz" = (
 /obj/stool/bed,
 /obj/item/clothing/suit/bedsheet,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "You have no idea who these people are. Who's poster is this, anyway?";
 	icon_state = "rush";
 	name = "historic artifact";
@@ -24688,7 +24688,7 @@
 	icon_state = "tube1";
 	dir = 8
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	pixel_x = -32
 	},
 /turf/simulated/floor{
@@ -26952,7 +26952,7 @@
 /area/maintenance/east)
 "aYj" = (
 /obj/disposalpipe/segment,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	pixel_y = 32
 	},
 /obj/machinery/light/small{
@@ -33828,7 +33828,7 @@
 	},
 /area/syndicate_station)
 "bkY" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	name = "EXTERNAL AIRLOCK";
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'"
 	},
@@ -34695,7 +34695,7 @@
 /turf/unsimulated/bombvr,
 /area/vr_oldprison)
 "bmP" = (
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/unsimulated/wall/other{
 	icon_state = "wall"
 	},
@@ -34805,7 +34805,7 @@
 	dir = 5
 	},
 /obj/grille,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	tag = "icon-space";
 	name = "VACUUM AREA";
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
@@ -37196,7 +37196,7 @@
 	},
 /area/meteor/dock)
 "bsB" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	tag = "icon-space";
 	name = "VACUUM AREA";
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
@@ -40266,7 +40266,7 @@
 /turf/simulated/wall/r_wall,
 /area/space)
 "bAy" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	pixel_y = 32
 	},
 /turf/simulated/wall/r_wall,
@@ -42531,7 +42531,7 @@
 /turf/simulated/floor/airless,
 /area/russian)
 "bGC" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which has Russian writing and the radiation sign on it.";
 	icon = 'icons/misc/rstation.dmi';
 	icon_state = "radiation";
@@ -42623,7 +42623,7 @@
 /turf/simulated/floor/airless,
 /area/russian)
 "bGP" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which has Russian writing and the radiation sign on it.";
 	icon = 'icons/misc/rstation.dmi';
 	icon_state = "radiation";
@@ -42805,7 +42805,7 @@
 /turf/simulated/floor/airless/grime,
 /area/russian)
 "bHs" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which has Russian writing and the radiation sign on it.";
 	icon = 'icons/misc/rstation.dmi';
 	icon_state = "radiation";
@@ -43363,7 +43363,7 @@
 /turf/simulated/floor/airless/engine,
 /area/russian/radiation)
 "bIO" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which has Russian writing and the radiation sign on it.";
 	icon = 'icons/misc/rstation.dmi';
 	icon_state = "radiation";
@@ -43661,7 +43661,7 @@
 /turf/simulated/floor/airless,
 /area/russian)
 "bJB" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which has Russian writing and the radiation sign on it.";
 	icon = 'icons/misc/rstation.dmi';
 	icon_state = "radiation";
@@ -44998,7 +44998,7 @@
 	name = "Biomedical Laboratory"
 	})
 "bNc" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'STERILE AREA'";
 	name = "STERILE AREA"
 	},
@@ -45027,7 +45027,7 @@
 /turf/simulated/floor/airless,
 /area/russian)
 "bNg" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'Biohazard'";
 	icon_state = "bio";
 	name = "BIOHAZARD";
@@ -45112,7 +45112,7 @@
 /turf/simulated/floor/airless/grime,
 /area/russian)
 "bNs" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'Biohazard'";
 	icon_state = "bio";
 	name = "BIOHAZARD";
@@ -45345,7 +45345,7 @@
 	name = "Biomedical Laboratory"
 	})
 "bNP" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'Biohazard'";
 	icon_state = "bio";
 	name = "BIOHAZARD";
@@ -47899,7 +47899,7 @@
 	},
 /turf/simulated/floor/yellow/side)
 "bTm" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage";
@@ -47919,7 +47919,7 @@
 	},
 /turf/simulated/floor/yellow/side)
 "bTo" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'Biohazard'";
 	icon_state = "bio";
 	layer = 2.5;
@@ -48156,7 +48156,7 @@
 	sd_lighting = 1
 	})
 "bTJ" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A poster that reads 'CLEAN HANDS SAVE LIVES'.";
 	icon_state = "chsl";
 	name = "CLEAN HANDS SAVE LIVES";
@@ -49144,7 +49144,7 @@
 	sd_lighting = 1
 	})
 "bVp" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	tag = "icon-space";
 	name = "VACUUM AREA";
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
@@ -49211,7 +49211,7 @@
 /turf/simulated/wall/r_wall,
 /area/factory)
 "bVz" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	tag = "icon-space";
 	name = "VACUUM AREA";
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
@@ -50608,7 +50608,7 @@
 /turf/simulated/floor/plating/airless,
 /area/space)
 "bYh" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A sign labeled 'Factory IV -- Thinktronic Data Systems";
 	icon_state = "joeq";
 	name = "Factory IV";
@@ -52194,7 +52194,7 @@
 	},
 /area/engine/miningoutpost)
 "cbG" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	tag = "icon-space";
 	name = "VACUUM AREA";
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";

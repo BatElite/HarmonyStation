@@ -20356,7 +20356,7 @@
 /obj/disposalpipe/segment/mail{
 	dir = 4
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "An arcade and game room.";
 	icon_state = "arcade";
 	name = "ARCADE";
@@ -26921,7 +26921,7 @@
 	dir = 8;
 	icon_state = "line1"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'Biohazard'";
 	icon_state = "bio";
 	layer = 2.5;
@@ -27978,7 +27978,7 @@
 	dir = 4;
 	req_access = null
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'Biohazard'";
 	icon_state = "bio";
 	layer = 2.5;
@@ -29676,7 +29676,7 @@
 /obj/decal/tile_edge/stripe/extra_big{
 	dir = 4
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'Biohazard'";
 	icon_state = "bio";
 	layer = 2.5;

@@ -49,7 +49,7 @@
 /turf/simulated/floor/grime,
 /area/prefab/sea_sketch)
 "ak" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A poster that reads 'CLEAN HANDS SAVE LIVES'.";
 	icon_state = "chsl";
 	name = "CLEAN HANDS SAVE LIVES";

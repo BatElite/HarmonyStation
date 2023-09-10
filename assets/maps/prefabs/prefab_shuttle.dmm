@@ -399,7 +399,7 @@
 	},
 /area/noGenerate)
 "be" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "Blue, blue.";
 	icon_state = "med";
 	layer = 9;
@@ -711,7 +711,7 @@
 	},
 /area/noGenerate)
 "bP" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "Blue, blue.";
 	icon_state = "med";
 	layer = 9;

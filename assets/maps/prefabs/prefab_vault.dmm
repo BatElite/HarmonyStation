@@ -45,7 +45,7 @@
 /turf/unsimulated/floor/void,
 /area/prefab/vault)
 "i" = (
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/prefab/vault)
 "j" = (

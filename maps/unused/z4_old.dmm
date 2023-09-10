@@ -4180,7 +4180,7 @@
 	},
 /area/syndicate_station)
 "lt" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'Biohazard'";
 	icon_state = "bio";
 	layer = 2.5;

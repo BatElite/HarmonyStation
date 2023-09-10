@@ -1580,7 +1580,7 @@
 /area/station/security/interrogation)
 "adt" = (
 /obj/wingrille_spawn/auto/crystal/reinforced,
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /obj/cable{
 	d2 = 4;
 	icon_state = "0-4"
@@ -1620,7 +1620,7 @@
 /area/station/ai_monitored/storage/eva)
 "adw" = (
 /obj/wingrille_spawn/auto/crystal/reinforced,
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /obj/cable{
 	d2 = 8;
 	icon_state = "0-8"
@@ -16204,7 +16204,7 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage";
@@ -19679,7 +19679,7 @@
 /turf/simulated/floor/white,
 /area/debris/evilreaver/genetics)
 "aXH" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'Biohazard'";
 	icon_state = "bio";
 	layer = 2.5;
@@ -40746,7 +40746,7 @@
 /area/debris/tech_outpost)
 "ccJ" = (
 /obj/kitchenspike,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A poster that reads 'CLEAN HANDS SAVE CASH: Today's unwashed palm is tomorrow's class action suit!'.";
 	icon_state = "chsc";
 	name = "CLEAN HANDS SAVE CASH";
@@ -40984,7 +40984,7 @@
 /turf/simulated/floor/grime,
 /area/debris/tech_outpost)
 "cds" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage";

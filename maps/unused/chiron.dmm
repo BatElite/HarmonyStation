@@ -995,7 +995,7 @@
 	},
 /area/station/science/testchamber)
 "abP" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'Biohazard'";
 	icon_state = "bio";
 	layer = 2.5;
@@ -2501,7 +2501,7 @@
 /turf/simulated/floor/engine,
 /area/station/engine/core)
 "aey" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'Fire Hazard'";
 	icon_state = "fire";
 	layer = 3;
@@ -3756,7 +3756,7 @@
 	dir = 4
 	},
 /obj/window/reinforced/south,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	name = "BIOHAZARD ZONE"
 	},
 /turf/simulated/floor/plating,
@@ -4025,7 +4025,7 @@
 	dir = 4
 	},
 /obj/window/reinforced/north,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	name = "BIOHAZARD ZONE"
 	},
 /turf/simulated/floor/plating,
@@ -4092,7 +4092,7 @@
 	d2 = 4
 	},
 /obj/window/reinforced,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "Careless use of experimental teleportation technology may be hazardous to your health.";
 	name = "Molecular Integrity Hazard"
 	},
@@ -4123,7 +4123,7 @@
 	p_open = 1
 	},
 /obj/window/reinforced,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "Careless use of experimental teleportation technology may be hazardous to your health.";
 	name = "Molecular Integrity Hazard"
 	},
@@ -7554,7 +7554,7 @@
 /turf/simulated/floor,
 /area/station/hallway/secondary/entry)
 "anI" = (
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/simulated/wall/auto/reinforced/gannets,
 /area/station/maintenance/solar/east)
 "anJ" = (
@@ -11620,7 +11620,7 @@
 /turf/simulated/wall/auto/reinforced/gannets,
 /area/station/crew_quarters/quarters_east)
 "awg" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	name = "VACUUM AREA"
 	},
@@ -12951,7 +12951,7 @@
 /turf/simulated/floor/carpet/grime,
 /area/station/crew_quarters/bar)
 "aze" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	icon_state = "space";
 	layer = 2.5;
@@ -17407,7 +17407,7 @@
 	},
 /area/station/medical/head)
 "aIT" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	icon_state = "space";
 	layer = 2.5;
@@ -18384,7 +18384,7 @@
 /turf/simulated/floor/red,
 /area/station/medical/medbay)
 "aLa" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	name = "VACUUM AREA";
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	icon_state = "space"
@@ -18426,24 +18426,24 @@
 	icon_state = "catwalk_cross"
 	},
 /obj/landmark/magnet_shield,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 4;
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 5;
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign. I guess this area is dangerous.";
 	icon_state = "magwarning2";
 	name = "ACTIVE MAGNET AREA"
@@ -18554,7 +18554,7 @@
 /turf/simulated/floor/caution/south,
 /area/station/hallway/primary/central)
 "aLq" = (
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/simulated/wall/auto/reinforced/gannets,
 /area/station/medical/head)
 "aLr" = (
@@ -18607,25 +18607,25 @@
 	icon_state = "catwalk_cross"
 	},
 /obj/landmark/magnet_shield,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 1;
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 8;
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 10;
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign. I guess this area is dangerous.";
 	icon_state = "magwarning2";
 	name = "ACTIVE MAGNET AREA"
@@ -19598,7 +19598,7 @@
 	},
 /area/station/engine/core)
 "aNx" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	name = "HIGH ENERGY PLASMA"
 	},
@@ -19701,24 +19701,24 @@
 	icon_state = "catwalk_cross"
 	},
 /obj/landmark/magnet_shield,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 8;
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 6;
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign. I guess this area is dangerous.";
 	icon_state = "magwarning2";
 	name = "ACTIVE MAGNET AREA"
@@ -20765,7 +20765,7 @@
 	},
 /area/station/engine/core)
 "aPy" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	name = "HIGH ENERGY PLASMA"
 	},
@@ -20875,7 +20875,7 @@
 /turf/simulated/floor/plating,
 /area/station/medical/medbay)
 "aPH" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	name = "VACUUM AREA"
 	},
@@ -21343,7 +21343,7 @@
 /turf/simulated/floor/plating,
 /area/station/security/brig)
 "aQC" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	name = "VACUUM AREA"
 	},
@@ -21445,25 +21445,25 @@
 	icon_state = "catwalk_cross"
 	},
 /obj/landmark/magnet_shield,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 1;
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 4;
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 9;
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign. I guess this area is dangerous.";
 	icon_state = "magwarning2";
 	name = "ACTIVE MAGNET AREA"
@@ -21478,7 +21478,7 @@
 	dir = 4
 	},
 /obj/landmark/magnet_shield,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 4;
 	icon_state = "magwarning";
@@ -21676,7 +21676,7 @@
 /turf/simulated/floor/plating,
 /area/station/security/brig)
 "aRh" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	name = "VACUUM AREA"
 	},
@@ -21824,7 +21824,7 @@
 "aRu" = (
 /obj/grille/catwalk,
 /obj/landmark/magnet_shield,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 1;
 	icon_state = "magwarning";
@@ -21838,7 +21838,7 @@
 "aRw" = (
 /obj/grille/catwalk,
 /obj/landmark/magnet_shield,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
@@ -22750,7 +22750,7 @@
 /turf/simulated/wall/auto/reinforced/gannets,
 /area/station/security/brig)
 "aTl" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	name = "VACUUM AREA"
 	},
@@ -23711,7 +23711,7 @@
 	d1 = 2;
 	d2 = 4
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage";
@@ -23894,7 +23894,7 @@
 	dir = 5
 	},
 /obj/landmark/magnet_shield,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 1;
 	icon_state = "magwarning";
@@ -24300,7 +24300,7 @@
 	d1 = 2;
 	d2 = 8
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage";
@@ -25589,7 +25589,7 @@
 /turf/space,
 /area/space)
 "aYD" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	name = "VACUUM AREA"
 	},
@@ -27788,7 +27788,7 @@
 	dir = 4
 	},
 /obj/landmark/magnet_shield,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 8;
 	icon_state = "magwarning";
@@ -30948,7 +30948,7 @@
 /turf/simulated/floor/plating,
 /area/station/maintenance/southeast)
 "bja" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage";
@@ -31086,7 +31086,7 @@
 /turf/simulated/floor/carpet/arcade,
 /area/station/bridge/captain)
 "bjn" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage";
@@ -33040,7 +33040,7 @@
 /turf/simulated/floor/plating,
 /area/listeningpost)
 "bnJ" = (
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/simulated/shuttle/wall{
 	icon_state = "wall3"
 	},
@@ -33874,7 +33874,7 @@
 /turf/simulated/floor/plating,
 /area/station/maintenance/southeast)
 "bpJ" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	name = "VACUUM AREA"
 	},
@@ -33945,7 +33945,7 @@
 /turf/simulated/floor/engine/vacuum,
 /area/station/science/lab)
 "bpT" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	name = "VACUUM AREA"
 	},

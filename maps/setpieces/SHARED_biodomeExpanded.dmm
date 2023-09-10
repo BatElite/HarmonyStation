@@ -430,7 +430,7 @@
 /turf/unsimulated/floor/auto/dirt,
 /area/adventure/crypt/graveyard/swamp)
 "aAw" = (
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /obj/map/light/graveyard,
 /turf/unsimulated/wall/auto/lead/gray,
 /area/adventure/crypt/sigma/crew)
@@ -1967,7 +1967,7 @@
 	},
 /area/adventure/swampzone/interiors/bonktek/electek)
 "csx" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage"
@@ -2783,7 +2783,7 @@
 	},
 /area/adventure/swampzone/ground)
 "dub" = (
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/unsimulated/wall/setpieces/rootwall,
 /area/adventure/crypt/graveyard/swamp)
 "dui" = (
@@ -5844,7 +5844,7 @@
 /turf/unsimulated/floor/auto/grass/leafy,
 /area/adventure/swampzone/interiors/bonktek)
 "gUF" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage"
@@ -7181,7 +7181,7 @@
 /turf/unsimulated/greek/water,
 /area/adventure/swampzone/deeps)
 "iCz" = (
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/unsimulated/wall/auto/lead/gray,
 /area/adventure/crypt/sigma/mainhall)
 "iCC" = (
@@ -9244,7 +9244,7 @@
 /turf/unsimulated/floor/cave,
 /area/adventure/crater)
 "kSM" = (
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/unsimulated/wall/auto/lead/blue,
 /area/adventure/crater/biodome/research)
 "kTq" = (
@@ -10809,7 +10809,7 @@
 	},
 /area/syndicate_station)
 "mRO" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'Biohazard'";
 	icon_state = "bio";
 	layer = 2.5;
@@ -10895,7 +10895,7 @@
 	},
 /area/adventure/crypt/graveyard)
 "mXl" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'Biohazard'";
 	icon_state = "bio";
 	layer = 2.5;
@@ -15119,7 +15119,7 @@
 	},
 /area/space)
 "sfm" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A poster that reads 'CLEAN HANDS SAVE LIVES'.";
 	icon_state = "chsl";
 	name = "CLEAN HANDS SAVE LIVES";

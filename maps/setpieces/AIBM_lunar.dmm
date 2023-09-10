@@ -3222,7 +3222,7 @@
 /turf/unsimulated/floor,
 /area/adventure/moon/museum)
 "ie" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'SURFACE AIRLOCK'";
 	icon_state = "space";
 	name = "VACUUM AREA";

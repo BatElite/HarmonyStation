@@ -417,7 +417,7 @@
 	"/obj/submachine/ice_cream_dispenser",
 	"/obj/machinery/portable_atmospherics", \
 	"/obj/machinery/ai_status_display",
-	"/obj/securearea",
+	"/obj/decal/poster/wallsign/securearea",
 	"/obj/submachine/mixer",
 	"/obj/submachine/foodprocessor"
 	)

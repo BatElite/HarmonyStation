@@ -72,7 +72,7 @@
 /turf/simulated/floor/scorched2,
 /area/shuttle/sea_elevator)
 "p" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "Someone has scratched the following words under the sign: <i>abandon all hope,  ye who enter here...<i>";
 	name = "GLACIAL CAVERNS ACCESS";
 	pixel_y = -32

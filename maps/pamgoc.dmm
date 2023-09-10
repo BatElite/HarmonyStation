@@ -870,7 +870,7 @@
 /obj/machinery/power/terminal{
 	dir = 4
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage";
@@ -3598,7 +3598,7 @@
 /area/space)
 "afA" = (
 /obj/wingrille_spawn/auto/reinforced,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage"
@@ -8551,7 +8551,7 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage"
@@ -8564,7 +8564,7 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage"
@@ -9343,7 +9343,7 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage"
@@ -23543,7 +23543,7 @@
 /obj/disposalpipe/segment{
 	dir = 8
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	name = "VACUUM AREA";
 	pixel_y = -4
@@ -24266,7 +24266,7 @@
 "aSe" = (
 /obj/grille/catwalk,
 /obj/landmark/magnet_shield,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 1;
 	icon_state = "magwarning";
@@ -24279,7 +24279,7 @@
 "aSf" = (
 /obj/grille/catwalk,
 /obj/landmark/magnet_shield,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
@@ -24334,24 +24334,24 @@
 	dir = 10
 	},
 /obj/landmark/magnet_shield,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 4;
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 10;
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign. I guess this area is dangerous.";
 	icon_state = "magwarning2";
 	name = "ACTIVE MAGNET AREA"
@@ -24436,25 +24436,25 @@
 	dir = 5
 	},
 /obj/landmark/magnet_shield,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 1;
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 8;
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 5;
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign. I guess this area is dangerous.";
 	icon_state = "magwarning2";
 	name = "ACTIVE MAGNET AREA"
@@ -24495,25 +24495,25 @@
 	dir = 6
 	},
 /obj/landmark/magnet_shield,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 1;
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 4;
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 6;
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign. I guess this area is dangerous.";
 	icon_state = "magwarning2";
 	name = "ACTIVE MAGNET AREA"
@@ -24554,24 +24554,24 @@
 	dir = 9
 	},
 /obj/landmark/magnet_shield,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 8;
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 9;
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign. I guess this area is dangerous.";
 	icon_state = "magwarning2";
 	name = "ACTIVE MAGNET AREA"
@@ -24716,7 +24716,7 @@
 	dir = 8
 	},
 /obj/landmark/magnet_shield,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 4;
 	icon_state = "magwarning";
@@ -24731,7 +24731,7 @@
 	dir = 8
 	},
 /obj/landmark/magnet_shield,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 8;
 	icon_state = "magwarning";
@@ -24806,7 +24806,7 @@
 	dir = 9
 	},
 /obj/landmark/magnet_shield,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 1;
 	icon_state = "magwarning";
@@ -27505,7 +27505,7 @@
 	icon_state = "0-4"
 	},
 /obj/wingrille_spawn/auto/reinforced,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "Careless use of experimental teleportation technology may be hazardous to your health.";
 	name = "Molecular Integrity Hazard";
 	pixel_y = -4
@@ -27551,7 +27551,7 @@
 /turf/simulated/floor/plating/airless,
 /area/station/science/lab)
 "aXJ" = (
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /obj/cable{
 	d1 = 0;
 	d2 = 2;
@@ -27567,7 +27567,7 @@
 /turf/simulated/floor/plating,
 /area/station/engine/gas)
 "aXK" = (
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /obj/cable{
 	d1 = 0;
 	d2 = 8;
@@ -27578,7 +27578,7 @@
 /area/station/engine/gas)
 "aXL" = (
 /obj/wingrille_spawn/auto/reinforced,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage"
@@ -27587,7 +27587,7 @@
 /area/station/engine/power)
 "aXM" = (
 /obj/wingrille_spawn/auto/reinforced,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	pixel_y = -4
 	},
 /turf/simulated/floor/plating,
@@ -28050,7 +28050,7 @@
 /area/shuttle/arrival/station)
 "aYO" = (
 /obj/wingrille_spawn/auto/reinforced,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	pixel_y = -4
 	},
 /turf/simulated/floor/plating,
@@ -32554,7 +32554,7 @@
 /area/station/hangar/engine)
 "bjY" = (
 /obj/machinery/atmospherics/pipe/simple/insulated,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	icon_state = "space";
 	name = "VACUUM AREA"
@@ -34233,7 +34233,7 @@
 /obj/machinery/atmospherics/pipe/simple{
 	level = 2
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	pixel_y = -4
 	},
 /turf/simulated/wall/auto/reinforced/supernorn,
@@ -52987,47 +52987,47 @@
 /area/station/chapel/sanctuary)
 "bWS" = (
 /obj/wingrille_spawn/auto/reinforced,
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/simulated/floor/plating,
 /area/station/quartermaster/office)
 "bWT" = (
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/engine/inner)
 "bWV" = (
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/unsimulated/wall/auto/adventure/shuttle/dark,
 /area/listeningpost)
 "bWW" = (
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/ai_monitored/storage/eva)
 "bWX" = (
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/janitor/office)
 "bWY" = (
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/mining/staff_room)
 "bWZ" = (
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/routing/depot)
 "bXa" = (
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/simulated/wall/auto/supernorn,
 /area/station/hallway/primary/south)
 "bXb" = (
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/simulated/wall/auto/supernorn,
 /area/station/maintenance/west)
 "bXc" = (
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/simulated/wall/auto/supernorn,
 /area/station/maintenance/solar/north)
 "bXd" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon = 'icons/obj/stationobjs.dmi';
 	icon_state = "barsign";
@@ -53036,7 +53036,7 @@
 /turf/simulated/wall/auto/supernorn,
 /area/station/crew_quarters/cafeteria)
 "bXe" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage"
@@ -53044,7 +53044,7 @@
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/engine/substation/pylon)
 "bXf" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage"
@@ -53052,7 +53052,7 @@
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/quartermaster/refinery)
 "bXg" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage"
@@ -53060,7 +53060,7 @@
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/turret_protected/armory_outside)
 "bXh" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage"
@@ -53068,7 +53068,7 @@
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/turret_protected/AIbaseoutside)
 "bXi" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage"
@@ -53079,7 +53079,7 @@
 	},
 /area/station/storage/warehouse)
 "bXj" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage"
@@ -53087,7 +53087,7 @@
 /turf/simulated/wall/auto/supernorn,
 /area/listeningpost)
 "bXl" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage"
@@ -53095,7 +53095,7 @@
 /turf/simulated/wall/auto/supernorn,
 /area/station/maintenance/central)
 "bXm" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A poster that reads 'CLEAN HANDS SAVE LIVES'.";
 	icon_state = "chsl";
 	name = "CLEAN HANDS SAVE LIVES";
@@ -53108,7 +53108,7 @@
 /turf/simulated/floor/sanitary,
 /area/station/crew_quarters/toilets)
 "bXn" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'COLLISION HAZARD'";
 	name = "COLLISION HAZARD";
 	pixel_y = -4
@@ -53116,7 +53116,7 @@
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/space)
 "bXo" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'COLLISION HAZARD'";
 	name = "COLLISION HAZARD";
 	pixel_y = -4
@@ -53126,7 +53126,7 @@
 	name = "Catering Hangar"
 	})
 "bXp" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'COLLISION HAZARD'";
 	name = "COLLISION HAZARD";
 	pixel_y = -4
@@ -53134,7 +53134,7 @@
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/maintenance/disposal)
 "bXq" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'COLLISION HAZARD'";
 	name = "COLLISION HAZARD";
 	pixel_y = -4
@@ -53142,7 +53142,7 @@
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/maintenance/west)
 "bXr" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'COLLISION HAZARD'";
 	name = "COLLISION HAZARD";
 	pixel_y = -4
@@ -53150,7 +53150,7 @@
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/maintenance/inner/central)
 "bXs" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'COLLISION HAZARD'";
 	name = "COLLISION HAZARD";
 	pixel_y = -4
@@ -53158,7 +53158,7 @@
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/quartermaster/office)
 "bXt" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'COLLISION HAZARD'";
 	name = "COLLISION HAZARD";
 	pixel_y = -4
@@ -53166,7 +53166,7 @@
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/routing/depot)
 "bXu" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'COLLISION HAZARD'";
 	name = "COLLISION HAZARD";
 	pixel_y = -4
@@ -53174,7 +53174,7 @@
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/routing/airbridge)
 "bXv" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'COLLISION HAZARD'";
 	name = "COLLISION HAZARD";
 	pixel_y = -4
@@ -53182,7 +53182,7 @@
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/routing/engine)
 "bXw" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'COLLISION HAZARD'";
 	name = "COLLISION HAZARD";
 	pixel_y = -4
@@ -53190,7 +53190,7 @@
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/routing/eva)
 "bXx" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'COLLISION HAZARD'";
 	name = "COLLISION HAZARD";
 	pixel_y = -4
@@ -53198,7 +53198,7 @@
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/routing/medsci)
 "bXy" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'COLLISION HAZARD'";
 	name = "COLLISION HAZARD";
 	pixel_y = -4
@@ -53206,7 +53206,7 @@
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/routing/security)
 "bXz" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'COLLISION HAZARD'";
 	name = "COLLISION HAZARD";
 	pixel_y = -4
@@ -53214,7 +53214,7 @@
 /turf/simulated/wall/auto/supernorn,
 /area/station/maintenance/west)
 "bXA" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'COLLISION HAZARD'";
 	name = "COLLISION HAZARD";
 	pixel_y = -4
@@ -53222,7 +53222,7 @@
 /turf/simulated/wall/auto/supernorn,
 /area/station/routing/catering)
 "bXB" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'CONSTRUCTION AREA'";
 	name = "CONSTRUCTION";
 	pixel_y = -4
@@ -53230,7 +53230,7 @@
 /turf/simulated/wall/auto/supernorn,
 /area/station/hallway/secondary/construction)
 "bXC" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'CONSTRUCTION AREA'";
 	name = "CONSTRUCTION";
 	pixel_y = -4
@@ -53238,7 +53238,7 @@
 /turf/simulated/wall/auto/supernorn,
 /area/station/hallway/secondary/construction2)
 "bXD" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'CONSTRUCTION AREA'";
 	name = "CONSTRUCTION";
 	pixel_y = -4
@@ -53246,7 +53246,7 @@
 /turf/simulated/wall/auto/supernorn,
 /area/station/hallway/secondary/entry)
 "bXE" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'CONSTRUCTION AREA'";
 	name = "CONSTRUCTION";
 	pixel_y = -4
@@ -53254,7 +53254,7 @@
 /turf/simulated/wall/auto/supernorn,
 /area/station/janitor/office)
 "bXF" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'CONSTRUCTION AREA'";
 	name = "CONSTRUCTION";
 	pixel_y = -4
@@ -53262,7 +53262,7 @@
 /turf/simulated/wall/auto/supernorn,
 /area/station/maintenance/northeast)
 "bXG" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'CONSTRUCTION AREA'";
 	name = "CONSTRUCTION";
 	pixel_y = -4
@@ -53270,7 +53270,7 @@
 /turf/simulated/wall/auto/supernorn,
 /area/station/maintenance/west)
 "bXH" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	icon_state = "space";
 	layer = 2.5;
@@ -53279,7 +53279,7 @@
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/hangar/main)
 "bXI" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	name = "VACUUM AREA";
 	pixel_y = -4
@@ -53287,7 +53287,7 @@
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/maintenance/west)
 "bXJ" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	name = "VACUUM AREA";
 	pixel_y = -4
@@ -53295,7 +53295,7 @@
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/maintenance/central)
 "bXK" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	name = "VACUUM AREA";
 	pixel_y = -4
@@ -53303,7 +53303,7 @@
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/turret_protected/ai_upload_foyer)
 "bXL" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'Fire Hazard'";
 	icon_state = "fire";
 	layer = 3;
@@ -53312,7 +53312,7 @@
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/science/lab)
 "bXM" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'Fire Hazard'";
 	icon_state = "fire";
 	layer = 3;
@@ -53321,7 +53321,7 @@
 /turf/simulated/wall/auto/supernorn/wood,
 /area/station/crew_quarters/pool)
 "bXN" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "Careless use of experimental teleportation technology may be hazardous to your health.";
 	name = "Molecular Integrity Hazard";
 	pixel_y = -4
@@ -53332,40 +53332,40 @@
 /turf/simulated/wall/auto/supernorn,
 /area/station/science/teleporter)
 "bXO" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	name = "ENGINEERING ACCESS";
 	pixel_y = -4
 	},
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/engine/substation/pylon)
 "bXP" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	name = "ENGINEERING ACCESS";
 	pixel_y = -4
 	},
 /turf/simulated/wall/auto/supernorn,
 /area/station/maintenance/solar/north)
 "bXQ" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	name = "ENGINEERING ACCESS";
 	pixel_y = -4
 	},
 /turf/simulated/wall/auto/supernorn,
 /area/station/maintenance/solar/south)
 "bXR" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	pixel_y = -4
 	},
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/bridge)
 "bXS" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	pixel_y = -4
 	},
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/hangar/sec)
 "bXT" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	pixel_y = -4
 	},
 /turf/simulated/wall/auto/reinforced/supernorn,
@@ -69527,7 +69527,7 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage"
@@ -69783,7 +69783,7 @@
 /area/station/ai_monitored/storage/eva)
 "sLl" = (
 /obj/wingrille_spawn/auto/reinforced,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage"
@@ -70100,7 +70100,7 @@
 /turf/simulated/floor/grass/leafy,
 /area/station/ranch)
 "uKv" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'COLLISION HAZARD'";
 	name = "COLLISION HAZARD";
 	pixel_y = -4
@@ -70167,7 +70167,7 @@
 "vqT" = (
 /obj/grille/catwalk,
 /obj/landmark/magnet_shield,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 1;
 	icon_state = "magwarning";

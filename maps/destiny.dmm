@@ -13055,7 +13055,7 @@
 /turf/simulated/floor/circuit,
 /area/listeningpost)
 "bzR" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage"
@@ -13147,7 +13147,7 @@
 /turf/simulated/floor/plating/airless,
 /area/listeningpost)
 "bAe" = (
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/unsimulated/wall/auto/adventure/shuttle/dark,
 /area/listeningpost)
 "bAf" = (
@@ -18495,7 +18495,7 @@
 /obj/grille/catwalk/cross{
 	dir = 9
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign. I guess this area is dangerous.";
 	icon_state = "magwarning2";
 	name = "ACTIVE MAGNET AREA"
@@ -23126,7 +23126,7 @@
 /obj/grille/catwalk/cross{
 	dir = 6
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign. I guess this area is dangerous.";
 	icon_state = "magwarning2";
 	name = "ACTIVE MAGNET AREA"
@@ -43581,7 +43581,7 @@
 /obj/grille/catwalk/cross{
 	dir = 5
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign. I guess this area is dangerous.";
 	icon_state = "magwarning2";
 	name = "ACTIVE MAGNET AREA"
@@ -44900,7 +44900,7 @@
 /obj/grille/catwalk/cross{
 	dir = 10
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign. I guess this area is dangerous.";
 	icon_state = "magwarning2";
 	name = "ACTIVE MAGNET AREA"

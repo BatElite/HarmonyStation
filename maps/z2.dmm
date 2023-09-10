@@ -3439,7 +3439,7 @@
 	},
 /area/adventure/moon/museum/west)
 "aks" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon = 'icons/obj/stationobjs.dmi';
 	icon_state = "barsign";
@@ -5796,7 +5796,7 @@
 /turf/unsimulated/floor,
 /area/adventure/moon/museum)
 "asD" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'SURFACE AIRLOCK'";
 	icon_state = "space";
 	name = "VACUUM AREA";
@@ -10981,7 +10981,7 @@
 	},
 /area/adventure/marsoutpost)
 "aKq" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	pixel_y = 32
 	},
 /turf/unsimulated/floor/caution/north,
@@ -12868,7 +12868,7 @@
 	},
 /area/adventure/marsoutpost)
 "aPX" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "Blue, blue.";
 	icon_state = "med";
 	layer = 9;
@@ -13125,7 +13125,7 @@
 /turf/unsimulated/floor/grime,
 /area/adventure/marsoutpost)
 "aQK" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	pixel_y = 32
 	},
 /obj/decal/fakeobjects/pipe{
@@ -13200,7 +13200,7 @@
 /turf/unsimulated/floor/grime,
 /area/adventure/lower_arctic/mining)
 "aQX" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "Someone has scratched the following words under the sign: <i>abandon all hope,  ye who enter here...<i>";
 	name = "GLACIAL CAVERNS ACCESS";
 	pixel_y = -32
@@ -15061,7 +15061,7 @@
 	},
 /area/adventure/crater/biodome/crew)
 "aWJ" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A poster that reads 'CLEAN HANDS SAVE LIVES'.";
 	icon_state = "chsl";
 	name = "CLEAN HANDS SAVE LIVES";
@@ -20379,7 +20379,7 @@
 	},
 /area/adventure/drone/engineering)
 "bku" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage"
@@ -21178,7 +21178,7 @@
 /turf/unsimulated/floor/cave,
 /area/adventure/crater/cave/lower)
 "bmw" = (
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/unsimulated/wall/auto/adventure/mars/interior,
 /area/adventure/marsoutpost)
 "bmx" = (
@@ -21558,7 +21558,7 @@
 /obj/window/reinforced{
 	dir = 1
 	},
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
@@ -21982,7 +21982,7 @@
 /obj/window/reinforced{
 	dir = 1
 	},
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/unsimulated/floor{
 	icon_state = "floor"
 	},
@@ -22037,7 +22037,7 @@
 	},
 /area/adventure/drone/assembly)
 "bon" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	icon_state = "space";
 	layer = 2.5;
@@ -29298,7 +29298,7 @@
 /turf/unsimulated/floor/white/corner,
 /area/adventure/crunch)
 "bLB" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A poster that reads 'CLEAN HANDS SAVE CASH: Today's unwashed palm is tomorrow's class action suit!'.";
 	icon_state = "chsc";
 	name = "CLEAN HANDS SAVE CASH";
@@ -29732,7 +29732,7 @@
 /turf/unsimulated/floor/red,
 /area/syndicate_station/battlecruiser)
 "bNa" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	icon_state = "space";
 	name = "VACUUM AREA"
@@ -35143,7 +35143,7 @@
 	},
 /area/shuttle/john/owlery)
 "cfb" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage"
@@ -39887,7 +39887,7 @@
 /turf/unsimulated/floor/plating,
 /area/adventure/crunch/wtc)
 "csp" = (
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/unsimulated/wall/auto/reinforced/supernorn,
 /area/adventure/crunch/wtc)
 "csq" = (
@@ -44429,7 +44429,7 @@
 /turf/unsimulated/floor/wood/two,
 /area/adventure/owlery/staffhall)
 "cEb" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	icon_state = "space";
 	name = "VACUUM AREA"
@@ -45414,7 +45414,7 @@
 	},
 /area/adventure/owlery/staffhall)
 "cGv" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	icon_state = "space";
 	name = "VACUUM AREA"
@@ -46025,7 +46025,7 @@
 	},
 /area/adventure/owlery/gangzone)
 "cHX" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "Caution: Space Owl Preserve";
 	icon_state = "owlery";
 	name = "OWLERY";
@@ -50024,7 +50024,7 @@
 	},
 /area/adventure/owlery/office)
 "cRt" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "Caution: Space Owl Preserve";
 	icon_state = "owlery";
 	name = "OWLERY";
@@ -50165,7 +50165,7 @@
 /turf/unsimulated/floor/plating,
 /area/adventure/owlery/owleryhall)
 "cRK" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "Caution: Space Owl Preserve";
 	icon_state = "owlery";
 	name = "OWLERY";
@@ -59178,7 +59178,7 @@
 	name = "power conduit";
 	tag = "icon-conduit (EAST)"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'Radiation hazard'";
 	icon_state = "rad";
 	layer = 2.5;
@@ -69053,7 +69053,7 @@
 	},
 /area/centcom/offices/sord)
 "fGW" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'Fire Hazard'";
 	icon_state = "fire";
 	layer = 2.5;
@@ -69497,7 +69497,7 @@
 /turf/unsimulated/floor/void/channel,
 /area/adventure/virtual/channel/flingy)
 "gUJ" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage";
@@ -69585,7 +69585,7 @@
 	},
 /area/adventure/hospital/samostrel)
 "hky" = (
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/unsimulated/wall/auto/lead/blue,
 /area/adventure/crater/biodome/research)
 "hmD" = (
@@ -70171,7 +70171,7 @@
 /turf/unsimulated/floor/blackwhite,
 /area/adventure/owlery/office)
 "iId" = (
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/unsimulated/wall/auto/lead/blue,
 /area/adventure/upper_arctic/pod1)
 "iIt" = (
@@ -71551,7 +71551,7 @@
 	},
 /area/afterlife/bar)
 "mbi" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "Blue, blue.";
 	icon_state = "med";
 	layer = 9;
@@ -71560,7 +71560,7 @@
 /turf/unsimulated/wall/auto/lead/blue,
 /area/adventure/upper_arctic/pod2)
 "mcq" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage"
@@ -71662,7 +71662,7 @@
 	},
 /area/centcom/offices/enakai)
 "mnl" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'Fire Hazard'";
 	icon_state = "fire";
 	layer = 2.5;
@@ -71761,7 +71761,7 @@
 	},
 /area/diner/cow)
 "mEG" = (
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/unsimulated/wall/auto/lead/gray,
 /area/adventure/crypt/sigma/mainhall)
 "mET" = (
@@ -71931,7 +71931,7 @@
 	},
 /area/titlescreen)
 "nbB" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'Fire Hazard'";
 	icon_state = "fire";
 	layer = 3;
@@ -72253,7 +72253,7 @@
 /turf/unsimulated/floor/circuit/red,
 /area/syndicate_station/assault_pod)
 "nJE" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'Biohazard'";
 	icon_state = "bio";
 	layer = 2.5;
@@ -73272,7 +73272,7 @@
 /turf/unsimulated/outdoors/grass,
 /area/shuttle/merchant_shuttle/right_centcom/cogmap)
 "pKT" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "It looks pretty dangerous in there.";
 	name = "HAZARDOUS AREA"
 	},
@@ -74734,7 +74734,7 @@
 /turf/unsimulated/floor/plating/scorched,
 /area/adventure/iomoon/base/underground)
 "soz" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "Someone has drawn a burning skull and crossbones in the lower corner of the sign.";
 	name = "MAGMA CHAMBER ACCESS";
 	pixel_x = 32
@@ -74742,7 +74742,7 @@
 /turf/unsimulated/floor,
 /area/adventure/iomoon/base/underground)
 "soS" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "It looks pretty dangerous in there.";
 	name = "HAZARDOUS AREA"
 	},
@@ -75428,7 +75428,7 @@
 	},
 /area/adventure/iomoon)
 "uiu" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'Biohazard'";
 	icon_state = "bio";
 	layer = 2.5;
@@ -76224,7 +76224,7 @@
 /turf/unsimulated/outdoors/grass,
 /area/diner/cow)
 "wlR" = (
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /obj/map/light/graveyard,
 /turf/unsimulated/wall/auto/lead/gray,
 /area/adventure/crypt/sigma/crew)
@@ -76651,7 +76651,7 @@
 /turf/unsimulated/floor/grass/leafy,
 /area/adventure/hospital/somewhere)
 "xjT" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage"

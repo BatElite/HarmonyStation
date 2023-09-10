@@ -850,7 +850,7 @@
 /obj/cable{
 	icon_state = "1-2"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "Caution: Space Owl Preserve";
 	icon_state = "owlery";
 	name = "OWLERY";
@@ -4760,7 +4760,7 @@
 /turf/simulated/floor/red,
 /area/station/hangar/sec)
 "ajb" = (
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/simulated/wall/auto/supernorn,
 /area/station/hangar/sec)
 "ajc" = (
@@ -6054,7 +6054,7 @@
 /turf/simulated/floor/grey/whitegrime/other,
 /area/station/storage/primary)
 "akM" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "Caution: Space Owl Preserve";
 	icon_state = "owlery";
 	name = "OWLERY";
@@ -6240,7 +6240,7 @@
 /area/station/shield_zone)
 "ali" = (
 /obj/wingrille_spawn/auto/reinforced,
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/simulated/floor/plating,
 /area/station/hangar/sec)
 "alj" = (
@@ -7568,7 +7568,7 @@
 	name = "Locker Room"
 	})
 "anp" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "Caution: Space Owl Preserve";
 	icon_state = "owlery";
 	name = "OWLERY";
@@ -8168,7 +8168,7 @@
 /turf/simulated/floor/plating,
 /area/station/crew_quarters/arcade)
 "aoz" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "An arcade and game room.";
 	icon_state = "arcade";
 	name = "ARCADE";
@@ -17783,7 +17783,7 @@
 /turf/simulated/floor/wood,
 /area/station/crew_quarters/bar)
 "aKX" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon = 'icons/obj/stationobjs.dmi';
 	icon_state = "barsign";
@@ -18027,7 +18027,7 @@
 /turf/simulated/grimycarpet,
 /area/ghostdrone_factory)
 "aLy" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'Biohazard'";
 	icon_state = "bio";
 	layer = 2.5;
@@ -33082,7 +33082,7 @@
 /turf/simulated/wall/auto/supernorn,
 /area/station/engine/engineering)
 "bsq" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	name = "ENGINEERING ACCESS"
 	},
 /turf/simulated/wall/auto/supernorn,
@@ -36583,7 +36583,7 @@
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/engine/substation/west)
 "byJ" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	name = "ENGINEERING ACCESS"
 	},
 /turf/simulated/wall/auto/reinforced/supernorn,
@@ -37862,7 +37862,7 @@
 /turf/simulated/floor/plating,
 /area/station/engine/gas)
 "bBi" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'Fire Hazard'";
 	icon_state = "fire";
 	layer = 2.5;
@@ -38579,7 +38579,7 @@
 	},
 /area/station/engine/core)
 "bCJ" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'Fire Hazard'";
 	icon_state = "fire";
 	layer = 2.5;
@@ -38932,7 +38932,7 @@
 /turf/simulated/floor/plating,
 /area/station/engine/gas)
 "bDw" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'Fire Hazard'";
 	icon_state = "fire";
 	layer = 2.5;
@@ -39851,7 +39851,7 @@
 /turf/simulated/floor/plating,
 /area/station/engine/core)
 "bFn" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'Fire Hazard'";
 	icon_state = "fire";
 	layer = 2.5;
@@ -40358,7 +40358,7 @@
 /area/station/engine/core)
 "bGx" = (
 /obj/wingrille_spawn/auto/crystal/reinforced,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage"
@@ -40383,7 +40383,7 @@
 /turf/simulated/floor/plating/random,
 /area/ghostdrone_factory)
 "bGA" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage"
@@ -41903,7 +41903,7 @@
 /turf/simulated/floor/caution/west,
 /area/listeningpost/power)
 "bKk" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage"
@@ -42054,7 +42054,7 @@
 	},
 /area/space)
 "bKA" = (
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/unsimulated/wall/auto/adventure/shuttle/dark,
 /area/listeningpost)
 "bKB" = (
@@ -43349,19 +43349,19 @@
 /obj/grille/catwalk/cross{
 	dir = 9
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 4;
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 1;
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 9;
 	icon_state = "magwarning";
@@ -43377,7 +43377,7 @@
 /obj/grille/catwalk{
 	dir = 4
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 4;
 	icon_state = "magwarning";
@@ -43393,7 +43393,7 @@
 /obj/grille/catwalk{
 	dir = 6
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 4;
 	icon_state = "magwarning";
@@ -43409,18 +43409,18 @@
 /obj/grille/catwalk/cross{
 	dir = 5
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 4;
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 5;
 	icon_state = "magwarning";
@@ -43434,7 +43434,7 @@
 /area/mining/magnet)
 "bNG" = (
 /obj/grille/catwalk,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 1;
 	icon_state = "magwarning";
@@ -43446,7 +43446,7 @@
 /area/mining/magnet)
 "bNH" = (
 /obj/grille/catwalk,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
@@ -43459,19 +43459,19 @@
 /obj/grille/catwalk/cross{
 	dir = 10
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 1;
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 8;
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 10;
 	icon_state = "magwarning";
@@ -43487,7 +43487,7 @@
 /obj/grille/catwalk{
 	dir = 4
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 8;
 	icon_state = "magwarning";
@@ -43503,18 +43503,18 @@
 /obj/grille/catwalk/cross{
 	dir = 6
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 8;
 	icon_state = "magwarning";
 	name = "Magnet Area Boundary"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning that demarcates where the magnetic area begins.";
 	dir = 6;
 	icon_state = "magwarning";
@@ -45304,7 +45304,7 @@
 /turf/simulated/floor/black,
 /area/station/crewquarters/cryotron)
 "fNN" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "Boxing ring and fitness equipment.";
 	icon_state = "gym";
 	name = "Barkley Ballin' Gym";
@@ -49149,7 +49149,7 @@
 	name = "Community Center"
 	})
 "pWl" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "Why not relax at the pool?";
 	icon_state = "pool";
 	name = "POOL";

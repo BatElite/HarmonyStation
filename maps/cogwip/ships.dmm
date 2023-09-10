@@ -282,7 +282,7 @@
 /turf/simulated/floor/black,
 /area/space)
 "aP" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "Blue, blue.";
 	icon_state = "med";
 	layer = 9;
@@ -2560,7 +2560,7 @@
 /turf/space/no_replace,
 /area/space)
 "hb" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	icon_state = "space";
 	name = "VACUUM AREA"
@@ -5671,7 +5671,7 @@
 	},
 /area/space)
 "pe" = (
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/simulated/shuttle/wall{
 	icon_state = "wall3"
 	},
@@ -6596,7 +6596,7 @@
 /turf/unsimulated/floor/shuttlebay,
 /area/space)
 "rA" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "Blue, blue.";
 	icon_state = "med";
 	layer = 9;

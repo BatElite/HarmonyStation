@@ -21,7 +21,7 @@
 /turf/space,
 /area/noGenerate)
 "ae" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'COLLISION HAZARD'";
 	name = "COLLISION HAZARD"
 	},
@@ -821,7 +821,7 @@
 /turf/simulated/floor/carpet/arcade,
 /area/diner/arcade)
 "cN" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	icon_state = "space";
 	name = "VACUUM AREA"
@@ -3114,7 +3114,7 @@
 /obj/submachine/chef_sink/chem_sink{
 	dir = 8
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A poster that reads 'CLEAN HANDS SAVE LIVES'.";
 	icon_state = "chsl";
 	name = "CLEAN HANDS SAVE LIVES";
@@ -3969,7 +3969,7 @@
 /turf/simulated/floor/grime,
 /area/diner/hallway)
 "kZ" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	icon_state = "space";
 	name = "VACUUM AREA"
@@ -6782,7 +6782,7 @@
 /turf/simulated/floor/plating/damaged1,
 /area/debris/evilreaver/atmospherics)
 "OF" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'Biohazard'";
 	icon_state = "bio";
 	layer = 2.5;

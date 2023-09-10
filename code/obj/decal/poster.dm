@@ -421,6 +421,11 @@
 			desc = {"NCS Atlas, Nanotrasen,  \"Man always kills the thing he loves, and so we the pioneers have killed our wilderness. Some say we had to. Be that as it may, I am glad I shall never be young without wild country to be young in. Of what avail are forty freedoms without a blank spot on the map?  - Aldo Leopold\""}
 			name = "dedication plaque"
 			icon_state = "rip"
+		//This is the big one, tons of signage shit was varedited /obj/decal/poster/wallsign/securearea
+		securearea
+			desc = "A warning sign which reads 'SECURE AREA'"
+			name = "SECURE AREA"
+			icon_state = "securearea"
 
 		//straggler addition over :)
 

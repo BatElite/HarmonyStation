@@ -138,7 +138,7 @@
 /turf/simulated/floor/plating,
 /area/prefab/sequestered_cloner)
 "nS" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "Careless use of experimental teleportation technology may be hazardous to your health.";
 	name = "Molecular Integrity Hazard";
 	pixel_y = -4

@@ -1455,12 +1455,12 @@
 /area/space)
 "eL" = (
 /obj/wingrille_spawn/auto/reinforced,
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/simulated/floor/airless/plating,
 /area/space)
 "eM" = (
 /obj/wingrille_spawn/auto/reinforced,
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/simulated/floor/plating,
 /area/space)
 "eN" = (

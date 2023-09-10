@@ -293,7 +293,7 @@
 /turf/unsimulated/floor/grass,
 /area/adventure/virtual/urs_dungeon)
 "aJ" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'Fire Hazard'";
 	icon_state = "fire";
 	layer = 3;
@@ -324,7 +324,7 @@
 /turf/unsimulated/floor/green,
 /area/adventure/virtual/urs_dungeon)
 "aN" = (
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/unsimulated/wall/auto/supernorn,
 /area/adventure/virtual/urs_dungeon)
 "aO" = (

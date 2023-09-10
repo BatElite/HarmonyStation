@@ -235,7 +235,7 @@
 	},
 /area/space)
 "aI" = (
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/simulated/wall/r_wall,
 /area/space)
 "aJ" = (
@@ -1644,7 +1644,7 @@
 "ee" = (
 /obj/grille,
 /obj/window/reinforced/northeast,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage";
@@ -1803,7 +1803,7 @@
 	d1 = 4;
 	d2 = 8
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage";
@@ -1887,7 +1887,7 @@
 /turf/simulated/floor/plating,
 /area/space)
 "eJ" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage";

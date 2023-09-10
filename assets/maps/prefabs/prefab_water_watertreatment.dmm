@@ -17,7 +17,7 @@
 /turf/simulated/floor/engine/vacuum,
 /area/prefab/water_treatment)
 "ae" = (
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/prefab/water_treatment)
 "af" = (
@@ -741,7 +741,7 @@
 	},
 /area/prefab/water_treatment)
 "NA" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage"

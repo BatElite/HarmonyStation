@@ -855,7 +855,7 @@
 /turf/unsimulated/wall/other,
 /area/farm/bball)
 "ch" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "It looks pretty dangerous in there.";
 	name = "HAZARDOUS AREA"
 	},
@@ -1349,7 +1349,7 @@
 	density = 1;
 	name = "blocker (thunderdome)"
 	},
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "It looks pretty dangerous in there.";
 	name = "HAZARDOUS AREA"
 	},

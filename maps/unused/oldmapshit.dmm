@@ -981,7 +981,7 @@
 /turf/simulated/wall/r_wall,
 /area/space)
 "cs" = (
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/simulated/wall/r_wall,
 /area/space)
 "ct" = (

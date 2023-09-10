@@ -182,7 +182,7 @@
 /area/shuttle/arrival/station)
 "aD" = (
 /obj/machinery/atmospherics/portables_connector,
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage";
@@ -508,7 +508,7 @@
 /turf/simulated/floor/shuttle,
 /area/shuttle/arrival/station)
 "bv" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	icon_state = "space";
 	name = "VACUUM AREA";
@@ -530,7 +530,7 @@
 /turf/simulated/floor/shuttle,
 /area/shuttle/arrival/station)
 "by" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	icon_state = "space";
 	name = "VACUUM AREA";

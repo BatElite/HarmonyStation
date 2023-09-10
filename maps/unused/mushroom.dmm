@@ -870,7 +870,7 @@
 /turf/simulated/floor/plating,
 /area/station/maintenance/northeast)
 "acm" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	icon_state = "space";
 	name = "VACUUM AREA";
@@ -2766,7 +2766,7 @@
 /turf/simulated/floor/plating,
 /area/station/maintenance/disposal)
 "agj" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	tag = "icon-space";
 	name = "VACUUM AREA";
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
@@ -7168,7 +7168,7 @@
 	},
 /area/station/turret_protected/ai_upload_foyer)
 "aqe" = (
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/simulated/wall/r_wall,
 /area/station/turret_protected/ai_upload_foyer)
 "aqf" = (
@@ -7451,7 +7451,7 @@
 /turf/simulated/floor,
 /area/station/engine/engineering)
 "aqM" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign telling of the dangers of gravitational singularities.  Apparently they are dangerous.";
 	name = "Molecular Integrity Hazard"
 	},
@@ -9218,7 +9218,7 @@
 /turf/simulated/floor,
 /area/station/maintenance/east)
 "auL" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	icon_state = "space";
 	name = "VACUUM AREA";
@@ -9270,7 +9270,7 @@
 /turf/simulated/floor,
 /area/station/engine/engineering)
 "auQ" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage";
@@ -19398,7 +19398,7 @@
 /turf/simulated/floor,
 /area/station/crew_quarters/fitness)
 "aQm" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "'";
 	icon_state = "gym";
 	layer = 5;
@@ -20398,7 +20398,7 @@
 /turf/simulated/floor/engine/vacuum,
 /area/station/science/lab)
 "aSl" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'EXTERNAL AIRLOCK'";
 	name = "VACUUM AREA"
 	},
@@ -29015,7 +29015,7 @@
 /turf/simulated/floor/caution/west,
 /area/listeningpost/power)
 "blj" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "";
 	icon_state = "shock";
 	name = "Danger: High Voltage"
@@ -29136,7 +29136,7 @@
 	},
 /area/space)
 "blw" = (
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/simulated/shuttle/wall{
 	icon_state = "wall3"
 	},

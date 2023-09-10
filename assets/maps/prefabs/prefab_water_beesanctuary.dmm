@@ -921,7 +921,7 @@
 /turf/unsimulated/grass,
 /area/prefab/bee_sanctuary)
 "Ld" = (
-/obj/securearea,
+/obj/decal/poster/wallsign/securearea,
 /turf/unsimulated/wall/auto/reinforced/supernorn,
 /area/prefab/bee_sanctuary)
 "Lp" = (
@@ -993,7 +993,7 @@
 /turf/unsimulated/floor/white,
 /area/prefab/bee_sanctuary)
 "Oe" = (
-/obj/securearea{
+/obj/decal/poster/wallsign/securearea{
 	desc = "A warning sign which reads 'Biohazard'";
 	icon_state = "bio";
 	layer = 2.5;
