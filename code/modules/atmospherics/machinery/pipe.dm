@@ -389,7 +389,7 @@ obj/machinery/atmospherics/pipe
 		attackby(var/obj/item/W, var/mob/user)
 			if(isweldingtool(W))
 				//Welder + wrench for decon
-				if(user.find_tool_in_hand(TOOL_WRENCHING))
+				//if(user.find_tool_in_hand(TOOL_WRENCHING))
 
 				if(!ruptured)
 					boutput(user, "<span class='alert'>That isn't damaged!</span>")
@@ -416,8 +416,8 @@ obj/machinery/atmospherics/pipe
 				if(!welder:try_weld(user, 1.2, noisy=2))
 					return
 
-				var/datum/gas_mixture/gas = return_air()
-				var/pressure = MIXTURE_PRESSURE(gas)
+				//var/datum/gas_mixture/gas = return_air()
+				//var/pressure = MIXTURE_PRESSURE(gas)
 
 				//SETUP_GENERIC_ACTIONBAR(user, src)
 
