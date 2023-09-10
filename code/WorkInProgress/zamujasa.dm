@@ -1198,7 +1198,7 @@
 		src.plane = 100
 		src.anchored = 2
 		src.mouse_opacity = 1
-		src.maptext = {"<div class='c pixel sh' style="background: #00000080;"><strong>-- Welcome to Goonstation! --</strong>
+		src.maptext = {"<div class='c pixel sh' style="background: #00000080;"><strong>-- Welcome to HarmonyStation! --</strong>
 New? <a href="https://mini.xkeeper.net/ss13/tutorial/" style="color: #8888ff; font-weight: bold;" class="ol" target="_blank">Click here for a tutorial!</a>
 Ask mentors for help with <strong>F3</strong>
 Contact admins with <strong>F1</strong>
@@ -1279,12 +1279,11 @@ Read the rules, don't grief, and have fun!</div>"}
 			src.maptext_width = 600
 			src.maptext_height = 400
 			src.set_text({"<span class='ol vga'>
-Welcome to Goonstation!
+Welcome to HarmonyStation!
 New? <a style='color: #88f;' href="https://mini.xkeeper.net/ss13/tutorial/">Check the tutorial</a>!
 Have questions? Ask mentors with \[F3]!
-Need an admin? Message us with \[F1].
-
-Other Goonstation servers:[serverList]</span>"})
+Need an admin? Message us with \[F1]."})
+//Other Goonstation servers:[serverList]</span>"})
 
 
 
