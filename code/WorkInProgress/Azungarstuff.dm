@@ -891,11 +891,6 @@
 	flags = FPRINT | TABLEPASS
 	anchored = 2
 
-/obj/juggleplaque/manta
-	name = "dedication plaque"
-	desc = "Dedicated to Lieutenant Emily Claire for her brave sacrifice aboard NSS Manta - \"May their sacrifice not paint a grim picture of things to come. - Space Commodore J. Ledger\""
-	pixel_y = 25
-
 /obj/abzuholo
 	desc = "... is that Absu..?"
 	name = "... is that Absu..?"

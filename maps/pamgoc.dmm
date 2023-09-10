@@ -24248,7 +24248,7 @@
 /turf/simulated/pool/no_animate,
 /area/station/crew_quarters/pool)
 "aSa" = (
-/obj/fudad{
+/obj/decal/poster/wallsign/fudad{
 	name = "Arthur Muggins Memorial Jazz Lounge"
 	},
 /turf/simulated/wall/auto/reinforced/supernorn,
@@ -29873,7 +29873,7 @@
 /turf/simulated/floor/white,
 /area/station/medical/medbay/surgery)
 "bdC" = (
-/obj/juggleplaque,
+/obj/decal/poster/wallsign/juggleplaque,
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/crew_quarters/clown)
 "bdD" = (

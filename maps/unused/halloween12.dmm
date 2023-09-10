@@ -9811,7 +9811,7 @@
 /area/station/crew_quarters/quarters)
 "atm" = (
 /obj/item/device/radio/intercom{
-	
+
 	},
 /obj/crate,
 /obj/item/clothing/under/gimmick/princess,
@@ -19356,7 +19356,7 @@
 /turf/simulated/floor/plating,
 /area/station/maintenance/west)
 "aLE" = (
-/obj/joeq/spooky{
+/obj/decal/poster/wallsign/joeq/spooky{
 	pixel_x = -32
 	},
 /turf/simulated/floor/blue/side{
@@ -27378,7 +27378,7 @@
 /area/station/crew_quarters/juryroom)
 "bcc" = (
 /obj/item/device/radio/intercom{
-	
+
 	},
 /turf/simulated/floor,
 /area/station/crew_quarters/juryroom)
@@ -27714,7 +27714,7 @@
 "bcM" = (
 /obj/stool,
 /obj/item/device/radio/intercom{
-	
+
 	},
 /obj/item/chem_grenade/cleaner,
 /obj/item/chem_grenade/cleaner,
@@ -31175,7 +31175,7 @@
 	},
 /obj/item/device/radio/signaler,
 /obj/item/device/radio/intercom{
-	
+
 	},
 /obj/item/device/radio/signaler{
 	pixel_x = 2;

@@ -1279,7 +1279,7 @@
 /turf/simulated/floor/plating,
 /area/station/crew_quarters/clown)
 "cW" = (
-/obj/juggleplaque{
+/obj/decal/poster/wallsign/juggleplaque{
 	pixel_y = 32
 	},
 /obj/disposalpipe/segment{

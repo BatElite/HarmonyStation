@@ -79,7 +79,7 @@
 /turf/simulated/floor/plating/airless/asteroid,
 /area/prefab/clown_nest)
 "jC" = (
-/obj/juggleplaque{
+/obj/decal/poster/wallsign/juggleplaque{
 	desc = "Welcome to the fantastical and only ... but guaranteed safe ... Clownspider farm in the funny universe! You are entering Honky Gibbersons Clown-Farm! Honk!";
 	name = "Honkys Clownspider Farm"
 	},

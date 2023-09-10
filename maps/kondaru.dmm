@@ -49794,7 +49794,7 @@
 	dir = 8;
 	pixel_x = -12
 	},
-/obj/juggleplaque{
+/obj/decal/poster/wallsign/juggleplaque{
 	pixel_y = 32
 	},
 /obj/item/stamp/clown,

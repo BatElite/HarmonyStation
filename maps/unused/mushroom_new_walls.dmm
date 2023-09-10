@@ -28850,7 +28850,7 @@
 	},
 /area/station/turret_protected/AIsat)
 "nLu" = (
-/obj/fudad,
+/obj/decal/poster/wallsign/fudad,
 /turf/simulated/wall/auto/reinforced/supernorn,
 /area/station/crew_quarters/bar)
 "nLP" = (

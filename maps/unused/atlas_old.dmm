@@ -4538,7 +4538,7 @@
 /area/station/bridge/captain)
 "lJ" = (
 /obj/disposalpipe/segment,
-/obj/juggleplaque{
+/obj/decal/poster/wallsign/juggleplaque{
 	desc = "NCS Atlas, Nanotrasen,  \"Man always kills the thing he loves, and so we the pioneers have killed our wilderness. Some say we had to. Be that as it may, I am glad I shall never be young without wild country to be young in. Of what avail are forty freedoms without a blank spot on the map?  - Aldo Leopold\"";
 	name = "dedication plaque";
 	pixel_y = 25

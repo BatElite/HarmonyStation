@@ -16019,7 +16019,7 @@
 /turf/simulated/floor/industrial,
 /area/station/hangar/mining)
 "baS" = (
-/obj/joeq,
+/obj/decal/poster/wallsign/joeq,
 /turf/simulated/wall,
 /area/station/medical/medbay)
 "baT" = (

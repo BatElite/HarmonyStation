@@ -26652,7 +26652,7 @@
 	dir = 2;
 	icon_state = "pipe-c"
 	},
-/obj/juggleplaque/manta,
+/obj/decal/poster/wallsign/juggleplaque/manta,
 /turf/simulated/floor/plating/random,
 /area/station/maintenance/upperstarboard)
 "bvx" = (
@@ -40751,7 +40751,7 @@
 	dir = 1;
 	pixel_y = 20
 	},
-/obj/juggleplaque/manta,
+/obj/decal/poster/wallsign/juggleplaque/manta,
 /turf/simulated/floor/carpet{
 	dir = 4;
 	icon_state = "fgreen2"

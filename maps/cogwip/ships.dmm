@@ -2446,7 +2446,7 @@
 /turf/simulated/floor/shuttlebay,
 /area/diner/tug)
 "gK" = (
-/obj/juggleplaque{
+/obj/decal/poster/wallsign/juggleplaque{
 	desc = "NSV Renanin, Nanotrasen Communications Buoy, Leave the high Nest to tempt the liquid Air.";
 	name = "dedication plaque"
 	},
@@ -7664,7 +7664,7 @@
 	},
 /area/space)
 "tS" = (
-/obj/juggleplaque{
+/obj/decal/poster/wallsign/juggleplaque{
 	desc = "Syndicate Battlecruiser Cairngorm - Out of these mountains, Out of the defiant torment of Plutonic rock, Out of fire, terror, blackness and upheaval, Leap the clear burns, Living water.";
 	name = "dedication plaque";
 	pixel_y = 0

@@ -165,7 +165,7 @@
 /turf/space,
 /area/space)
 "aaD" = (
-/obj/juggleplaque{
+/obj/decal/poster/wallsign/juggleplaque{
 	desc = "NSV Renanin, Nanotrasen Communications Buoy, Leave the high Nest to tempt the liquid Air.";
 	name = "dedication plaque"
 	},

@@ -25060,7 +25060,7 @@
 /turf/simulated/wall,
 /area/station/medical/medbay)
 "aXH" = (
-/obj/joeq/spooky{
+/obj/decal/poster/wallsign/joeq/spooky{
 	pixel_x = -32
 	},
 /turf/simulated/floor/blue/side{
@@ -40938,7 +40938,7 @@
 /turf/unsimulated/floor/caution/north,
 /area/adventure/marsoutpost)
 "bEo" = (
-/obj/joeq{
+/obj/decal/poster/wallsign/joeq{
 	desc = "The text engraved into it is barely readable.";
 	name = "Vault";
 	pixel_y = 32

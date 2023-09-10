@@ -23171,7 +23171,7 @@
 /turf/simulated/floor/plating,
 /area/station/maintenance/west)
 "bbO" = (
-/obj/joeq/spooky{
+/obj/decal/poster/wallsign/joeq/spooky{
 	pixel_x = -32
 	},
 /turf/simulated/floor/blue/side{
@@ -44780,7 +44780,7 @@
 /turf/simulated/floor/engine,
 /area/station/turret_protected/AIsat)
 "rNn" = (
-/obj/juggleplaque,
+/obj/decal/poster/wallsign/juggleplaque,
 /turf/simulated/wall/auto/supernorn,
 /area/station/crew_quarters/clown)
 "rNH" = (

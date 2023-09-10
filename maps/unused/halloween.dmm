@@ -1801,7 +1801,7 @@
 /area/station/medical/research)
 "aeb" = (
 /obj/item/device/radio/intercom{
-	
+
 	},
 /turf/simulated/floor/white,
 /area/station/medical/research)
@@ -9545,7 +9545,7 @@
 /obj/disposalpipe/segment{
 	dir = 4
 	},
-/obj/joeq/spooky{
+/obj/decal/poster/wallsign/joeq/spooky{
 	pixel_y = 31
 	},
 /turf/simulated/floor/blue/side{
@@ -28977,7 +28977,7 @@
 	icon_state = "1-8"
 	},
 /obj/item/device/radio/intercom{
-	
+
 	},
 /turf/simulated/floor,
 /area/station/crew_quarters/fitness)

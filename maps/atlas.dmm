@@ -7087,7 +7087,7 @@
 /area/station/bridge)
 "rG" = (
 /obj/disposalpipe/segment,
-/obj/atlasplaque{
+/obj/decal/poster/wallsign/atlasplaque{
 	pixel_y = 25
 	},
 /turf/simulated/floor/blueblack,

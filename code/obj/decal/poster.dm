@@ -395,6 +395,35 @@
 			desc = "In memory of Arthur \"F. U. Dad\" Muggins, the bravest, toughest Vice Cop SS13 has ever known. Loved by all. R.I.P."
 			icon_state = "rip"
 
+		//2023-9-10 Adding a few more stragglers to this mess.
+		joeq //IDK who the fuck this is but folks loved varediting the old joeq plaque
+			desc = "Here lies Joe Q. Loved by all. He was a terrorist. R.I.P." //getting a kinda rancid vibe though
+			name = "Joe Q. Memorial Plaque"
+			icon_state = "rip"
+
+			spooky
+				name = "Memorial Plaque"
+				examine(mob/user)
+					boutput(user, "Here lies [user.real_name]. Loved by all. R.I.P.")
+
+		juggleplaque
+			desc = "In loving and terrified memory of those who discovered the dark secret of Jugglemancy. \"E. Shirtface, Juggles the Clown, E. Klein, A.F. McGee,  J. Flarearms.\""
+			name = "Funny-Looking Memorial Plaque"
+			icon_state = "rip"
+
+			//I'm murdering this fucker later
+			manta
+				name = "dedication plaque"
+				desc = "Dedicated to Lieutenant Emily Claire for her brave sacrifice aboard NSS Manta - \"May their sacrifice not paint a grim picture of things to come. - Space Commodore J. Ledger\""
+				pixel_y = 25
+
+		atlasplaque
+			desc = {"NCS Atlas, Nanotrasen,  \"Man always kills the thing he loves, and so we the pioneers have killed our wilderness. Some say we had to. Be that as it may, I am glad I shall never be young without wild country to be young in. Of what avail are forty freedoms without a blank spot on the map?  - Aldo Leopold\""}
+			name = "dedication plaque"
+			icon_state = "rip"
+
+		//straggler addition over :)
+
 		escape
 			name = "ESCAPE"
 			desc = "Follow this to find Escape! Or fire. Or death. One of those."

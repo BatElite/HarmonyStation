@@ -19433,7 +19433,7 @@
 /turf/simulated/floor/plating,
 /area/maintenance/west)
 "aMN" = (
-/obj/joeq/spooky{
+/obj/decal/poster/wallsign/joeq/spooky{
 	pixel_x = -32
 	},
 /turf/simulated/floor/blue/side{

@@ -8231,7 +8231,7 @@
 /turf/simulated/wall/auto/supernorn,
 /area/station/maintenance/south)
 "aue" = (
-/obj/juggleplaque{
+/obj/decal/poster/wallsign/juggleplaque{
 	pixel_y = -4
 	},
 /turf/simulated/wall/auto/supernorn,
@@ -22875,7 +22875,7 @@
 /turf/simulated/floor,
 /area/station/engine/engineering)
 "bie" = (
-/obj/joeq/spooky,
+/obj/decal/poster/wallsign/joeq/spooky,
 /turf/simulated/wall/r_wall{
 	icon = 'icons/misc/evilreaverstation.dmi';
 	icon_state = "old_rwall"

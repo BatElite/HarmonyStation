@@ -5641,7 +5641,7 @@
 	},
 /area/diner/jucer_trader)
 "xO" = (
-/obj/joeq/spooky,
+/obj/decal/poster/wallsign/joeq/spooky,
 /turf/simulated/wall/auto/reinforced/old,
 /area/debris/evilreaver/bar)
 "xX" = (

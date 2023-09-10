@@ -10990,7 +10990,7 @@
 /turf/unsimulated/floor/caution/north,
 /area/adventure/marsoutpost)
 "aKs" = (
-/obj/joeq{
+/obj/decal/poster/wallsign/joeq{
 	desc = "The text engraved into it is barely readable.";
 	name = "Vault";
 	pixel_y = 32
@@ -24498,7 +24498,7 @@
 /turf/unsimulated/floor,
 /area/adventure/iomoon/base/underground)
 "bvE" = (
-/obj/juggleplaque{
+/obj/decal/poster/wallsign/juggleplaque{
 	desc = "Syndicate Battlecruiser Cairngorm - Out of these mountains, Out of the defiant torment of Plutonic rock, Out of fire, terror, blackness and upheaval, Leap the clear burns, Living water.";
 	name = "dedication plaque";
 	pixel_y = 32
@@ -65996,7 +65996,7 @@
 /turf/unsimulated/floor/wood/two,
 /area/centcom/lobby)
 "dNj" = (
-/obj/fudad{
+/obj/decal/poster/wallsign/fudad{
 	desc = "Dedicated to Blackrayjack's computer, may it rest in peace.";
 	name = "Blackrayjack's Computer Memorial Plaque"
 	},
@@ -71572,7 +71572,7 @@
 	c_flags = 94208;
 	pixel_x = 1;
 	pixel_y = 10;
-	
+
 	},
 /obj/table/wood/auto/desk/lily,
 /turf/unsimulated/floor/carpet/purple/fancy/narrow/ne,

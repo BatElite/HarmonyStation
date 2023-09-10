@@ -2293,7 +2293,7 @@
 	name = "Clown's Quarters"
 	})
 "afW" = (
-/obj/juggleplaque{
+/obj/decal/poster/wallsign/juggleplaque{
 	pixel_y = -4
 	},
 /obj/decal/cleanable/rust,
@@ -63398,7 +63398,7 @@
 "del" = (
 /obj/machinery/door/airlock/pyro/glass{
 	name = "EMERGENCY DISPOSAL";
-	
+
 	},
 /turf/simulated/floor/airless/engine/caution/westeast,
 /area/station/hangar/science)
@@ -68846,7 +68846,7 @@
 "ewr" = (
 /obj/machinery/door/airlock/pyro/external{
 	name = "Outpost Shuttle Dock";
-	
+
 	},
 /obj/access_spawn/research,
 /turf/simulated/floor/airless/caution/northsouth,
@@ -70148,7 +70148,7 @@
 "gQM" = (
 /obj/machinery/door/airlock/pyro/external{
 	name = "Outpost Shuttle Dock";
-	
+
 	},
 /obj/machinery/door/firedoor/pyro,
 /obj/access_spawn/research,
@@ -71791,7 +71791,7 @@
 "jNM" = (
 /obj/machinery/door/airlock/pyro/external{
 	name = "Research Outpost Shuttle";
-	
+
 	},
 /obj/access_spawn/research,
 /turf/unsimulated/floor/shuttle,
@@ -77424,7 +77424,7 @@
 "sZi" = (
 /obj/machinery/door/airlock/pyro/external{
 	name = "Outpost Shuttle Dock";
-	
+
 	},
 /obj/machinery/door/firedoor/pyro,
 /obj/access_spawn/research,
@@ -78808,7 +78808,7 @@
 "vuO" = (
 /obj/machinery/door/airlock/pyro/external{
 	name = "Outpost Shuttle Dock";
-	
+
 	},
 /obj/access_spawn/research,
 /turf/simulated/floor/airless/caution/northsouth,

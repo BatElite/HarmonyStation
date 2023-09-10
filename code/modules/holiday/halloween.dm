@@ -1,6 +1,5 @@
 //CONTENTS:
 //Halloween spooky thing spawn landmark
-//Reader's death plaque.
 //Spooky tombstone.
 //Mind switching gizmo
 //The spooky data of Dr. Horace Jam
@@ -9,6 +8,7 @@
 //Haunted television.
 
 
+//Reader's death plaque (joeq/spooky) sign moved to poster.dm
 //void crunch turfs moved to keelins stuff
 //Decals that float moved to timeship.dm
 //moved obsidiancrown and hemera stuff to hemera.dm
@@ -26,15 +26,6 @@
 // also /obj/item/storage/nerd_kit/New() is in storage.dm with /obj/item/storage/nerd_kit instead of RANDOMLY FLOATING AROUND IN HERE WHAT IS WRONG WITH YOU PEOPLE
 //deathbutton to deathbutton.dm
 
-/*
- *	DEATH PLAQUE
- */
-
-/obj/joeq/spooky
-	name = "Memorial Plaque"
-
-	examine(mob/user)
-		boutput(user, "Here lies [user.real_name]. Loved by all. R.I.P.")
 
 /*
  *	Spooky TOMBSTONE.  It is a tombstone.

@@ -16081,7 +16081,7 @@
 /obj/npc/trader/exclown{
 	trader_area = "/area/station/crew_quarters/clown"
 	},
-/obj/juggleplaque{
+/obj/decal/poster/wallsign/juggleplaque{
 	pixel_y = 32
 	},
 /turf/simulated/floor/specialroom/clown,

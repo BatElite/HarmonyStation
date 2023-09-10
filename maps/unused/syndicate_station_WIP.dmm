@@ -141,7 +141,7 @@
 	},
 /area/syndicate_station/battlecruiser)
 "aC" = (
-/obj/juggleplaque{
+/obj/decal/poster/wallsign/juggleplaque{
 	desc = "Syndicate Battlecruiser Cairngorm - Out of these mountains, Out of the defiant torment of Plutonic rock, Out of fire, terror, blackness and upheaval, Leap the clear burns, Living water.";
 	name = "dedication plaque";
 	pixel_y = 28

@@ -24811,7 +24811,7 @@
 /turf/simulated/floor/specialroom/bar,
 /area/crew_quarters/bar)
 "aVb" = (
-/obj/fudad,
+/obj/decal/poster/wallsign/fudad,
 /turf/simulated/wall/r_wall,
 /area/crew_quarters/bar)
 "aVc" = (

@@ -3237,7 +3237,7 @@
 	d2 = 8
 	},
 /obj/item/device/radio/intercom/engineering{
-	
+
 	},
 /obj/machinery/light,
 /turf/simulated/floor,
@@ -12922,7 +12922,7 @@
 /turf/simulated/floor/plating,
 /area/station/maintenance/central)
 "aDH" = (
-/obj/juggleplaque,
+/obj/decal/poster/wallsign/juggleplaque,
 /turf/simulated/wall/auto/gannets,
 /area/station/crew_quarters/clown{
 	name = "Clown's Quarters"
@@ -17516,7 +17516,7 @@
 /obj/item/storage/box/lightbox/tubes,
 /obj/item/device/radio,
 /obj/item/device/radio/intercom{
-	
+
 	},
 /turf/simulated/floor,
 /area/station/janitor/office)

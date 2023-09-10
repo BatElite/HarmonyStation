@@ -13468,7 +13468,7 @@
 /turf/simulated/floor/caution/westeast,
 /area/station/maintenance/disposal)
 "aAM" = (
-/obj/juggleplaque{
+/obj/decal/poster/wallsign/juggleplaque{
 	pixel_x = -8;
 	pixel_y = -4
 	},
