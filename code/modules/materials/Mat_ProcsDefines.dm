@@ -88,8 +88,8 @@ var/global/list/triggerVars = list("triggersOnBullet", "triggersOnEat", "trigger
 /// Called AFTER the material of the object was changed.
 /atom/proc/onMaterialChanged()
 	if(istype(src.material))
-		explosion_resistance = material.hasProperty("density") ? round(material.getProperty("density") / 33) : explosion_resistance
-		explosion_protection = material.hasProperty("density") ? round(material.getProperty("density") / 33) : explosion_protection
+		//explosion_resistance = material.hasProperty("density") ? round(material.getProperty("density") / 33) : explosion_resistance
+		explosion_resistance = material.hasProperty("density") ? max(round(material.getProperty("density") / 33), initial(explosion_resistance)) : explosion_resistance
 		if( !(flags & CONDUCT) && (src.material.getProperty("electrical") >= 50)) flags |= CONDUCT
 
 

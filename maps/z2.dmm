@@ -27094,9 +27094,9 @@
 /area/adventure/iomoon)
 "bER" = (
 /obj/machinery/door/unpowered/wood{
+	dir = 4;
 	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 4
+	lock_dir = 8
 	},
 /turf/unsimulated/floor/wood/two,
 /area/centcom/offices/katzen)
@@ -54234,13 +54234,12 @@
 /area/adventure/owlery/Owlmait2)
 "cZM" = (
 /obj/machinery/door/unpowered/wood{
+	dir = 8;
 	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 8
+	lock_dir = 8
 	},
 /turf/unsimulated/floor/wood/two{
 	desc = " It is made of wood.";
-	explosion_protection = 1;
 	explosion_resistance = 1;
 	name = "wood floor";
 	opaque_atom_count = 1
@@ -57574,7 +57573,6 @@
 	},
 /turf/unsimulated/floor/wood/two{
 	desc = " It is made of wood.";
-	explosion_protection = 1;
 	explosion_resistance = 1;
 	name = "wood floor"
 	},
@@ -57664,7 +57662,6 @@
 	},
 /turf/unsimulated/floor/wood/two{
 	desc = " It is made of wood.";
-	explosion_protection = 1;
 	explosion_resistance = 1;
 	name = "wood floor"
 	},
@@ -57709,7 +57706,6 @@
 /obj/machinery/vending/magivend,
 /turf/unsimulated/floor/wood/two{
 	desc = " It is made of wood.";
-	explosion_protection = 1;
 	explosion_resistance = 1;
 	name = "wood floor"
 	},
@@ -57733,7 +57729,6 @@
 	},
 /turf/unsimulated/floor/wood/two{
 	desc = " It is made of wood.";
-	explosion_protection = 1;
 	explosion_resistance = 1;
 	name = "wood floor"
 	},
@@ -57827,7 +57822,6 @@
 	},
 /turf/unsimulated/floor/wood/two{
 	desc = " It is made of wood.";
-	explosion_protection = 1;
 	explosion_resistance = 1;
 	name = "wood floor"
 	},
@@ -57861,7 +57855,6 @@
 /obj/machinery/door/unpowered/wood/pyro,
 /turf/unsimulated/floor/wood/two{
 	desc = " It is made of wood.";
-	explosion_protection = 1;
 	explosion_resistance = 1;
 	name = "wood floor"
 	},
@@ -57880,7 +57873,6 @@
 /obj/item/electronics/soldering,
 /turf/unsimulated/floor/wood/two{
 	desc = " It is made of wood.";
-	explosion_protection = 1;
 	explosion_resistance = 1;
 	name = "wood floor"
 	},
@@ -57888,7 +57880,6 @@
 "dkt" = (
 /turf/unsimulated/floor/wood/two{
 	desc = " It is made of wood.";
-	explosion_protection = 1;
 	explosion_resistance = 1;
 	name = "wood floor"
 	},
@@ -57904,7 +57895,6 @@
 	},
 /turf/unsimulated/floor/wood/two{
 	desc = " It is made of wood.";
-	explosion_protection = 1;
 	explosion_resistance = 1;
 	name = "wood floor"
 	},
@@ -57939,7 +57929,6 @@
 	},
 /turf/unsimulated/floor/wood/two{
 	desc = " It is made of wood.";
-	explosion_protection = 1;
 	explosion_resistance = 1;
 	name = "wood floor"
 	},
@@ -57984,7 +57973,6 @@
 /obj/machinery/computer/security/wooden_tv,
 /turf/unsimulated/floor/wood/two{
 	desc = " It is made of wood.";
-	explosion_protection = 1;
 	explosion_resistance = 1;
 	name = "wood floor"
 	},
@@ -67317,8 +67305,8 @@
 	})
 "dQV" = (
 /obj/machinery/door/unpowered/wood/stall{
-	lock_dir = 8;
-	dir = 4
+	dir = 4;
+	lock_dir = 8
 	},
 /turf/unsimulated/floor/specialroom/freezer,
 /area/centcom/lobby)
@@ -68504,7 +68492,6 @@
 	},
 /turf/unsimulated/floor/wood/two{
 	desc = " It is made of wood.";
-	explosion_protection = 1;
 	explosion_resistance = 1;
 	name = "wood floor"
 	},
@@ -68679,9 +68666,9 @@
 	})
 "eLm" = (
 /obj/machinery/door/unpowered/wood{
+	dir = 4;
 	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 4
+	lock_dir = 8
 	},
 /turf/unsimulated/floor/black,
 /area/centcom/offices/flourish)
@@ -68956,10 +68943,10 @@
 /area/adventure/iomoon)
 "fBN" = (
 /obj/machinery/door/unpowered/wood{
+	dir = 4;
 	icon = 'icons/obj/doors/door_office.dmi';
 	lock_dir = 8;
-	locked = 1;
-	dir = 4
+	locked = 1
 	},
 /turf/unsimulated/floor/wood/two,
 /area/centcom/offices/cogwerks)
@@ -68975,7 +68962,6 @@
 	},
 /turf/unsimulated/floor/wood/two{
 	desc = " It is made of wood.";
-	explosion_protection = 1;
 	explosion_resistance = 1;
 	name = "wood floor"
 	},
@@ -69047,7 +69033,6 @@
 /obj/decal/fakeobjects/skeleton,
 /turf/unsimulated/floor/wood/two{
 	desc = " It is made of wood.";
-	explosion_protection = 1;
 	explosion_resistance = 1;
 	name = "wood floor"
 	},
@@ -69204,9 +69189,9 @@
 /area/centcom/lounge)
 "gca" = (
 /obj/machinery/door/unpowered/wood/lily{
+	dir = 8;
 	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 8
+	lock_dir = 8
 	},
 /obj/trigger/lovefill,
 /turf/unsimulated/floor/wood/six,
@@ -69267,9 +69252,9 @@
 /area/centcom/offices/tarmunora)
 "gif" = (
 /obj/machinery/door/unpowered/wood{
+	dir = 4;
 	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 4
+	lock_dir = 8
 	},
 /turf/unsimulated/floor/black,
 /area/centcom/offices/darkchis)
@@ -70395,8 +70380,8 @@
 /area/centcom/offices/tterc)
 "jhi" = (
 /obj/machinery/door/unpowered/wood/stall{
-	lock_dir = 8;
-	dir = 8
+	dir = 8;
+	lock_dir = 8
 	},
 /turf/unsimulated/floor/specialroom/freezer,
 /area/centcom/offices{
@@ -70567,9 +70552,9 @@
 /area/centcom/offices/mrfishstick)
 "jHc" = (
 /obj/machinery/door/unpowered/wood{
+	dir = 4;
 	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 4
+	lock_dir = 8
 	},
 /turf/unsimulated/floor/black,
 /area/centcom/offices/hydro)
@@ -70957,9 +70942,9 @@
 /area/adventure/crypt/sigma/storage)
 "kxc" = (
 /obj/machinery/door/unpowered/wood{
+	dir = 4;
 	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 4
+	lock_dir = 8
 	},
 /turf/unsimulated/floor/black,
 /area/centcom/offices/edad)
@@ -71054,9 +71039,9 @@
 	})
 "kLv" = (
 /obj/machinery/door/unpowered/wood{
+	dir = 8;
 	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 4;
-	dir = 8
+	lock_dir = 4
 	},
 /turf/unsimulated/floor{
 	icon_state = "floor"
@@ -71219,9 +71204,9 @@
 /area/diner/tug)
 "lgv" = (
 /obj/machinery/door/unpowered/wood{
+	dir = 4;
 	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 4
+	lock_dir = 8
 	},
 /turf/unsimulated/floor/wood/two,
 /area/centcom/offices/lyra)
@@ -71571,8 +71556,7 @@
 /obj/item/luggable_computer/personal{
 	c_flags = 94208;
 	pixel_x = 1;
-	pixel_y = 10;
-
+	pixel_y = 10
 	},
 /obj/table/wood/auto/desk/lily,
 /turf/unsimulated/floor/carpet/purple/fancy/narrow/ne,
@@ -72065,7 +72049,6 @@
 	},
 /turf/unsimulated/floor/wood/two{
 	desc = " It is made of wood.";
-	explosion_protection = 1;
 	explosion_resistance = 1;
 	name = "wood floor"
 	},
@@ -72337,7 +72320,6 @@
 	burn_possible = 1;
 	burning = 0;
 	burning_last_process = 1;
-	explosion_protection = 1;
 	explosion_resistance = 1;
 	force = 2;
 	icon_state = "paper";
@@ -72542,9 +72524,9 @@
 /area/syndicate_station/battlecruiser)
 "omv" = (
 /obj/machinery/door/unpowered/wood{
+	dir = 4;
 	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 4
+	lock_dir = 8
 	},
 /turf/unsimulated/floor/black,
 /area/centcom/offices/hufflaw)
@@ -72772,7 +72754,6 @@
 	},
 /turf/unsimulated/floor/wood/two{
 	desc = " It is made of wood.";
-	explosion_protection = 1;
 	explosion_resistance = 1;
 	name = "wood floor"
 	},
@@ -72855,7 +72836,6 @@
 /obj/item/toy/plush/small/kitten/wizard,
 /turf/unsimulated/floor/wood/two{
 	desc = " It is made of wood.";
-	explosion_protection = 1;
 	explosion_resistance = 1;
 	name = "wood floor"
 	},
@@ -72881,9 +72861,9 @@
 /area/centcom/offices/efrem)
 "paE" = (
 /obj/machinery/door/unpowered/wood{
+	dir = 4;
 	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 4
+	lock_dir = 8
 	},
 /turf/unsimulated/floor/black,
 /area/centcom/offices/grayshift)
@@ -72892,7 +72872,6 @@
 /obj/machinery/computer3/generic/personal,
 /turf/unsimulated/floor/wood/two{
 	desc = " It is made of wood.";
-	explosion_protection = 1;
 	explosion_resistance = 1;
 	name = "wood floor"
 	},
@@ -72977,9 +72956,9 @@
 /area/adventure/iomoon/caves)
 "pmz" = (
 /obj/machinery/door/unpowered/wood{
+	dir = 4;
 	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 4
+	lock_dir = 8
 	},
 /turf/unsimulated/floor{
 	icon = 'icons/turf/adventure_gannets.dmi';
@@ -73280,9 +73259,9 @@
 /area/sim/bball)
 "pMx" = (
 /obj/machinery/door/unpowered/wood{
+	dir = 8;
 	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 8
+	lock_dir = 8
 	},
 /turf/unsimulated/floor/wood/two,
 /area/centcom/offices/mrfishstick)
@@ -73470,9 +73449,9 @@
 /area/centcom/lounge)
 "qbg" = (
 /obj/machinery/door/unpowered/wood{
+	dir = 4;
 	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 4
+	lock_dir = 8
 	},
 /obj/decal/fakeobjects{
 	anchored = 1;
@@ -73745,9 +73724,9 @@
 /area/adventure/upper_arctic/comms)
 "qKe" = (
 /obj/machinery/door/unpowered/wood{
+	dir = 4;
 	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 4
+	lock_dir = 8
 	},
 /turf/unsimulated/floor/wood/two,
 /area/centcom/offices{
@@ -73909,9 +73888,9 @@
 /area/centcom)
 "qXw" = (
 /obj/machinery/door/unpowered/wood{
+	dir = 4;
 	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 4
+	lock_dir = 8
 	},
 /turf/unsimulated/floor/black,
 /area/centcom/offices/kyle)
@@ -74056,9 +74035,9 @@
 /area/adventure/hospital/samostrel)
 "ros" = (
 /obj/machinery/door/unpowered/wood{
+	dir = 4;
 	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 4
+	lock_dir = 8
 	},
 /turf/unsimulated/floor/black,
 /area/centcom/offices/aibm)
@@ -74069,7 +74048,6 @@
 /obj/item/clothing/mask/horse_mask,
 /turf/unsimulated/floor/wood/two{
 	desc = " It is made of wood.";
-	explosion_protection = 1;
 	explosion_resistance = 1;
 	name = "wood floor"
 	},
@@ -74203,7 +74181,6 @@
 	},
 /turf/unsimulated/floor/wood/two{
 	desc = " It is made of wood.";
-	explosion_protection = 1;
 	explosion_resistance = 1;
 	name = "wood floor"
 	},
@@ -74243,9 +74220,9 @@
 /area/adventure/iomoon)
 "rDK" = (
 /obj/machinery/door/unpowered/wood{
+	dir = 4;
 	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 4
+	lock_dir = 8
 	},
 /turf/unsimulated/floor/black,
 /area/centcom/offices/shotgunbill)
@@ -74536,9 +74513,9 @@
 /area/adventure/drone/office)
 "saY" = (
 /obj/machinery/door/unpowered/wood{
+	dir = 4;
 	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 4
+	lock_dir = 8
 	},
 /turf/unsimulated/floor/caution/misc{
 	dir = 4
@@ -74902,7 +74879,6 @@
 /obj/item/clothing/suit/bedsheet/pink,
 /turf/unsimulated/floor/wood/two{
 	desc = " It is made of wood.";
-	explosion_protection = 1;
 	explosion_resistance = 1;
 	name = "wood floor"
 	},
@@ -74910,7 +74886,6 @@
 "sNn" = (
 /turf/unsimulated/floor/wood/two{
 	desc = " It is made of wood.";
-	explosion_protection = 1;
 	explosion_resistance = 1;
 	name = "wood floor"
 	},
@@ -74971,9 +74946,9 @@
 /area/adventure/solarium)
 "sYS" = (
 /obj/machinery/door/unpowered/wood{
+	dir = 4;
 	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 4
+	lock_dir = 8
 	},
 /turf/unsimulated/floor/black,
 /area/centcom/offices/atomicthumbs)
@@ -75039,9 +75014,9 @@
 /area/adventure/owlery/gangzone)
 "tih" = (
 /obj/machinery/door/unpowered/wood{
+	dir = 8;
 	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 8
+	lock_dir = 8
 	},
 /obj/adventurepuzzle/triggerer/trigger{
 	id = "virva_trigger"
@@ -75216,9 +75191,9 @@
 /area/shuttle/merchant_shuttle/left_centcom/cogmap)
 "tBw" = (
 /obj/machinery/door/unpowered/wood{
+	dir = 4;
 	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 4
+	lock_dir = 8
 	},
 /turf/unsimulated/floor/setpieces/swampgrass,
 /area/centcom/offices/tterc)
@@ -75366,9 +75341,9 @@
 "ubk" = (
 /obj/machinery/door/unpowered/wood{
 	desc = "This heavy door has a more ornate lock than the rest.";
+	dir = 8;
 	locked = 1;
-	name = "old wooden door";
-	dir = 8
+	name = "old wooden door"
 	},
 /turf/unsimulated/floor/setpieces/rootfloor{
 	icon_state = "rootfloor_3"
@@ -75551,9 +75526,9 @@
 /area/titlescreen)
 "uyV" = (
 /obj/machinery/door/unpowered/wood{
+	dir = 4;
 	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 4
+	lock_dir = 8
 	},
 /obj/adventurepuzzle/triggerer/trigger{
 	id = "emily_office_trigger"
@@ -75792,9 +75767,9 @@
 /area/adventure/meat_derelict/guts)
 "vgK" = (
 /obj/machinery/door/unpowered/wood{
+	dir = 4;
 	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 4
+	lock_dir = 8
 	},
 /turf/unsimulated/floor/wood/two,
 /area/centcom/offices/varshie)
@@ -75910,9 +75885,9 @@
 /area/centcom/lobby)
 "vpD" = (
 /obj/machinery/door/unpowered/wood{
+	dir = 4;
 	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 4
+	lock_dir = 8
 	},
 /turf/unsimulated/floor/wood/two,
 /area/centcom/offices/tarmunora)
@@ -76104,9 +76079,9 @@
 /area/diner/cow)
 "vQR" = (
 /obj/machinery/door/unpowered/wood{
+	dir = 8;
 	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 4;
-	dir = 8
+	lock_dir = 4
 	},
 /turf/unsimulated/floor/wood/two,
 /area/centcom/offices/sovexe)
@@ -76362,9 +76337,9 @@
 /area/adventure/iomoon)
 "wzJ" = (
 /obj/machinery/door/unpowered/wood{
+	dir = 4;
 	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 4
+	lock_dir = 8
 	},
 /turf/unsimulated/floor/wood/two,
 /area/centcom/offices/efrem)
@@ -76537,8 +76512,8 @@
 /area/centcom/offices/grifflez)
 "wPE" = (
 /obj/machinery/door/unpowered/wood/stall{
-	lock_dir = 8;
-	dir = 4
+	dir = 4;
+	lock_dir = 8
 	},
 /turf/unsimulated/floor/specialroom/freezer,
 /area/centcom/offices{
@@ -76582,9 +76557,9 @@
 /area/adventure/iomoon)
 "wYi" = (
 /obj/machinery/door/unpowered/wood{
+	dir = 4;
 	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 4
+	lock_dir = 8
 	},
 /turf/unsimulated/floor/caution,
 /area/centcom/offices/studenterhue)
@@ -76928,9 +76903,9 @@
 /area/adventure/crunch)
 "xTP" = (
 /obj/machinery/door/unpowered/wood{
+	dir = 4;
 	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 4
+	lock_dir = 8
 	},
 /turf/unsimulated/floor/wood/two,
 /area/centcom/offices/aloe)
@@ -76947,9 +76922,9 @@
 /area/shuttle/merchant_shuttle/diner_centcom)
 "xVf" = (
 /obj/machinery/door/unpowered/wood{
+	dir = 4;
 	icon = 'icons/obj/doors/door_office.dmi';
-	lock_dir = 8;
-	dir = 4
+	lock_dir = 8
 	},
 /turf/unsimulated/floor/black,
 /area/centcom/offices/burntcornmuffin)

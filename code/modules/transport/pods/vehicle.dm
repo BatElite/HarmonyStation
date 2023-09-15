@@ -549,7 +549,7 @@
 				if (sec_system:crashable)
 					return
 		var/sevmod = 0
-		sevmod = round(src.explosion_protection / 5)
+		sevmod = round(src.explosion_resistance / 5)
 
 		severity += sevmod
 

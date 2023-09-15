@@ -149,8 +149,8 @@
 	/// Change the appearance of this atom when a material is applied?
 	var/mat_changeappearance = 1
 
+	/// Hinders the propagation of explosions
 	var/explosion_resistance = 0
-	var/explosion_protection = 0 //Reduces damage from explosions
 
 	/// Chemistry.
 	var/datum/reagents/reagents = null
