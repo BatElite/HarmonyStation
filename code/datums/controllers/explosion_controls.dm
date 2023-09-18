@@ -181,7 +181,7 @@ var/datum/explosion_controller/explosions
 					logTheThing("bombing", user, null, logmsg)
 					logTheThing("diary", user, null, logmsg, "combat")
 
-	///Calculates
+	///Calculates which turfs are affected at what power, then queues that on the explosion controls
 	proc/explode()
 		logMe(power)
 
@@ -273,3 +273,18 @@ var/datum/explosion_controller/explosions
 		source = null
 
 #undef RSS_SCALE
+
+///Wanna get some explosion traces without manually doing 50 explosions
+/*
+/obj/machinery/explosion_tester
+	icon_state = "igniter1"
+	processing_tier = PROCESSING_HALF
+
+	process(mult)
+		..()
+		if (!explosions.exploding)
+			explosions.explode_at(src,get_turf(src), 50, 1 ,0, 360, FALSE) //50 power 1 brisance
+
+	ex_act()
+		return
+*/
