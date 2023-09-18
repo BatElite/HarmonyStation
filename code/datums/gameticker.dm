@@ -773,7 +773,7 @@ var/global/current_state = GAME_STATE_WORLD_INIT
 
 	logTheThing("debug", null, null, "Done with books")
 
-	award_archived_round_xp()
+	//award_archived_round_xp()
 
 	logTheThing("debug", null, null, "Spawned XP")
 
@@ -792,7 +792,7 @@ var/global/current_state = GAME_STATE_WORLD_INIT
 					//logTheThing("debug", null, null, "Zamujasa: [world.timeofday] sending crew credits to [E.ckey]")
 					creds.Subscribe(E.client)
 					//logTheThing("debug", null, null, "Zamujasa: [world.timeofday] done crew credits to [E.ckey]")
-				SPAWN(0) show_xp_summary(E.key, E)
+				//SPAWN(0) show_xp_summary(E.key, E)
 
 		//logTheThing("debug", null, null, "Zamujasa: [world.timeofday] done showing tickets/scores")
 
