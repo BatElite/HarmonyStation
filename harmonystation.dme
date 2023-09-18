@@ -951,6 +951,7 @@ var/datum/preMapLoad/preMapLoad = new
 #include "code\modules\jobxp\JobXPRewards.dm"
 #include "code\modules\localassets\localasset.dm"
 #include "code\modules\localassets\localassets_tgui.dm"
+#include "code\modules\mapping\mapping_helpers.dm"
 #include "code\modules\materials\Mat_FabParts.dm"
 #include "code\modules\materials\Mat_FabRecipes.dm"
 #include "code\modules\materials\Mat_Fabrication.dm"
