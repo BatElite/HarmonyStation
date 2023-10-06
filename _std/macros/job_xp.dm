@@ -37,8 +37,8 @@
 
 //Hi Bat here I think job XP is a system that is both under-developed in terms of rewards
 //and incentivises the kind of attitude that leads people to grind shit they don't want to do.
-//So this is me bricking the system gently
-#define JOB_XP(TRG, JOB, XP) //if you want to unbrick, also uncomment show_xp_summary and award_archived_round_xp in the end-of-round code
+//So this is me bricking the system gently (the logging is just to stop the linter complaining about empty ifs)
+#define JOB_XP(TRG, JOB, XP) logTheThing("jobxp", TRG, null, "didn't get [XP] xp for [JOB].")//if you want to unbrick, also uncomment show_xp_summary and award_archived_round_xp in the end-of-round code
 
 //0.2, 25, 100, 225, 400, 625 ... 7=1225,10=2500,20=10000,30=22500,50=62500,100=250000
 //Say a round lasts 60 minutes. Level 5 should take 2 hours. ??
