@@ -24,16 +24,20 @@
 		src.UpdateIcon()
 
 	update_icon()
-		src.underlays = null
 		if (reagents.total_volume)
 			icon_state = "emerg_inj-[label]"
 			var/datum/color/average = reagents.get_average_color()
 			if (!src.fluid_image)
 				src.fluid_image = image(src.icon, "emerg_inj-fluid", -1)
 			src.fluid_image.color = average.to_rgba()
-			src.underlays += src.fluid_image
+			UpdateOverlays(fluid_image, "fluid")
 		else
 			icon_state = "emerg_inj-[label]0"
+			flick("emerg_inj-[label]-flick", src)
+			fluid_image.icon_state = "emerg_inj-fluid-flick"
+			UpdateOverlays(fluid_image, "fluid")
+			SPAWN(1 SECOND)
+				UpdateOverlays(null, "fluid")
 		item_state = "emerg_inj-[label]"
 
 	attack(mob/M, mob/user)
