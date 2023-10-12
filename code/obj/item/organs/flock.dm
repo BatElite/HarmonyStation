@@ -4,7 +4,7 @@
 	blood_type = "flockdrone_fluid"
 	blood_color = "#1bdebd"
 	desc = "That thing should not be in there, nopenopenope."
-	icon = 'icons/obj/materials.dmi'
+	icon = 'icons/obj/items/materials.dmi'
 	icon_state = "starstone" //wooo reused sprites
 	made_from = "gnesis"
 	broken = TRUE

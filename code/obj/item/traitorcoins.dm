@@ -1,7 +1,7 @@
 /obj/item/uplink_telecrystal
 	name = "pure telecrystal"
 	desc = "A pure Telecrystal, useful for creating small, precise warps in space."
-	icon = 'icons/obj/materials.dmi'
+	icon = 'icons/obj/items/materials.dmi'
 	icon_state = "telecrystal_pure"
 	max_stack = INFINITY
 
@@ -36,7 +36,7 @@
 /obj/item/explosive_uplink_telecrystal
 	name = "pure telecrystal"
 	desc = "A pure Telecrystal, useful for creating small, precise warps in space."
-	icon = 'icons/obj/materials.dmi'
+	icon = 'icons/obj/items/materials.dmi'
 	icon_state = "telecrystal_pure"
 
 	New()

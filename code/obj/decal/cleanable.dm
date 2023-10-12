@@ -776,7 +776,7 @@ var/list/blood_decal_violent_icon_states = list("floor1", "floor2", "floor3", "f
 		maptext_width = 16
 
 /obj/decal/cleanable/writing/spooky
-	icon = 'icons/obj/writing_animated_blood.dmi'
+	icon = 'icons/obj/decals/writing_animated_blood.dmi'
 	color = null
 /obj/decal/cleanable/writing/infrared
 	name = "infrared writing"

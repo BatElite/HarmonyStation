@@ -147,7 +147,7 @@
 	anchored = 1
 	density = 1
 	opacity = 0
-	icon = 'icons/obj/metal.dmi'
+	icon = 'icons/obj/items/metal.dmi'
 	icon_state = "sheet-g_1"
 
 	var/facing = NW_SE

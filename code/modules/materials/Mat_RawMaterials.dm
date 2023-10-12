@@ -2,7 +2,7 @@
 /obj/item/material_piece
 	name = "bar"
 	desc = "Some sort of processed material bar."
-	icon = 'icons/obj/materials.dmi'
+	icon = 'icons/obj/items/materials.dmi'
 	icon_state = "bar"
 	max_stack = INFINITY
 	stack_type = /obj/item/material_piece
@@ -23,7 +23,7 @@
 	proc/is_valid_icon_state(var/state)
 		if(isnull(src.valid_icon_states))
 			src.valid_icon_states = list()
-			for(var/icon_state in icon_states('icons/obj/materials.dmi'))
+			for(var/icon_state in icon_states('icons/obj/items/materials.dmi'))
 				src.valid_icon_states[icon_state] = 1
 		return state in src.valid_icon_states
 
