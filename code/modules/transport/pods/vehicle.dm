@@ -1690,7 +1690,7 @@
 
 /obj/machinery/vehicle/tank
 	name = "tank"
-	icon = 'icons/obj/machines/8dirvehicles.dmi'
+	icon = 'icons/obj/vehicles/8dirvehicles.dmi'
 	icon_state = "minisub_body"
 	var/body_type = "minisub"
 	var/obj/item/shipcomponent/locomotion/locomotion = null //wheels treads hovermagnets etc
@@ -1730,8 +1730,8 @@
 				var/obj/machinery/vehicle/tank/T = src
 				if (!T.locomotion)
 					T.locomotion = S
-					UpdateOverlays(image('icons/obj/machines/8dirvehicles.dmi', "[body_type]_[locomotion.appearanceString]"), "locomotion")
-					//T.overlays += image('icons/obj/machines/8dirvehicles.dmi', "[body_type]_[locomotion.appearanceString]")
+					UpdateOverlays(image('icons/obj/vehicles/8dirvehicles.dmi', "[body_type]_[locomotion.appearanceString]"), "locomotion")
+					//T.overlays += image('icons/obj/vehicles/8dirvehicles.dmi', "[body_type]_[locomotion.appearanceString]")
 				else
 					if (usr) //Occuring during gameplay
 						boutput(usr, "That system already has a part!")
@@ -1747,7 +1747,7 @@
 			locomotion.deactivate()
 			components -= locomotion
 			UpdateOverlays(null, "locomotion")
-			//src.overlays -= image('icons/obj/machines/8dirvehicles.dmi', "[body_type]_[locomotion.appearanceString]")
+			//src.overlays -= image('icons/obj/vehicles/8dirvehicles.dmi', "[body_type]_[locomotion.appearanceString]")
 			locomotion.set_loc(src.loc)
 			locomotion = null
 

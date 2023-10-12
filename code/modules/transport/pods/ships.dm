@@ -444,7 +444,7 @@ ABSTRACT_TYPE(/obj/structure/vehicleframe)
 /obj/structure/vehicleframe/subframe
 	name = "Minisub Frame"
 	desc = "A minisub under construction."
-	icon = 'icons/obj/machines/8dirvehicles.dmi'
+	icon = 'icons/obj/vehicles/8dirvehicles.dmi'
 	icon_state = "parts"
 	engine_type = /obj/item/sub/engine
 	control_type = /obj/item/sub/control
