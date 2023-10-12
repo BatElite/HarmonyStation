@@ -30,7 +30,7 @@
 	terminal //Light frame
 		name = "Terminal-frame"
 		desc = "A light micro-computer frame used for terminal systems."
-		icon = 'icons/obj/terminal_frame.dmi'
+		icon = 'icons/obj/machines/terminal_frame.dmi'
 		created_icon_state = "dterm"
 		material_amt = 0.3
 		max_peripherals = 2

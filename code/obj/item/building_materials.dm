@@ -520,7 +520,7 @@ MATERIAL
 					a_type = /obj/computer3frame/terminal
 					a_amount = 1
 					a_cost = 3
-					a_icon = 'icons/obj/terminal_frame.dmi'
+					a_icon = 'icons/obj/machines/terminal_frame.dmi'
 					a_icon_state = "0"
 					a_name = "a terminal frame"
 
