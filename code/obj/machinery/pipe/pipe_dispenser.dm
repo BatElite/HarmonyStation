@@ -2,7 +2,7 @@
 /obj/machinery/disposal_pipedispenser
 	name = "Disposal Pipe Dispenser"
 	desc = "A clunky, old machine that dispenses unanchored disposal pipes one at a time."
-	icon = 'icons/obj/manufacturer.dmi'
+	icon = 'icons/obj/machines/manufacturer.dmi'
 	icon_state = "pipe-fab"
 	density = 1
 	anchored = 1.0

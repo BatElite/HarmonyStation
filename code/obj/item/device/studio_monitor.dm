@@ -1,7 +1,7 @@
 /obj/item/device/radio/nukie_studio_monitor
 	name = "Studio Monitor"
 	desc = "An incredibly high quality studio monitor with an uncomfortable number of high voltage stickers. Manufactured by Funk-Tek"
-	icon = 'icons/obj/loudspeakers.dmi'
+	icon = 'icons/obj/machines/loudspeakers.dmi'
 	icon_state = "amp_stack"
 	wear_image_icon = 'icons/mob/clothing/back.dmi'
 

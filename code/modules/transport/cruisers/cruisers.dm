@@ -894,7 +894,7 @@
 
 /obj/machinery/cruiser_status_panel
 	name = "Status panel"
-	icon = 'icons/obj/ship.dmi'
+	icon = 'icons/obj/vehicles/ship.dmi'
 	icon_state = "statpanel"
 	density = 0
 	anchored = 1
@@ -905,13 +905,13 @@
 	New()
 		..()
 		UnsubscribeProcess()
-		barTop = image('icons/obj/ship.dmi',src,"statpanel1",src.layer+1)
+		barTop = image('icons/obj/vehicles/ship.dmi',src,"statpanel1",src.layer+1)
 		barTop.color = "#8A1919"
 
-		barMid = image('icons/obj/ship.dmi',src,"statpanel2",src.layer+1)
+		barMid = image('icons/obj/vehicles/ship.dmi',src,"statpanel2",src.layer+1)
 		barMid.color = "#19688A"
 
-		barBot = image('icons/obj/ship.dmi',src,"statpanel3",src.layer+1)
+		barBot = image('icons/obj/vehicles/ship.dmi',src,"statpanel3",src.layer+1)
 		barBot.color = "#CF9417"
 
 	proc/setValues(var/armor, var/shields, var/power)
@@ -957,7 +957,7 @@
 
 /obj/machinery/cruiser_destroyable
 	name = "Panel"
-	icon = 'icons/obj/ship.dmi'
+	icon = 'icons/obj/vehicles/ship.dmi'
 	icon_state = "wpanel0"
 	density = 0
 	anchored = 1
@@ -1043,7 +1043,7 @@
 
 /obj/machinery/cruiser_destroyable/cruiser_component_slot
 	name = "Component slot"
-	icon = 'icons/obj/ship.dmi'
+	icon = 'icons/obj/vehicles/ship.dmi'
 	icon_state = "chute0"
 	var/icon_state_open = "chute1"
 	var/icon_state_closed = "chute0"
@@ -1204,7 +1204,7 @@
 
 /obj/machinery/cruiser_destroyable/cruiser_component_slot/life_support
 	name = "Life support slot"
-	icon = 'icons/obj/ship.dmi'
+	icon = 'icons/obj/vehicles/ship.dmi'
 	icon_state = "chuteb1"
 	icon_state_open = "chuteb0"
 	icon_state_closed = "chuteb1"

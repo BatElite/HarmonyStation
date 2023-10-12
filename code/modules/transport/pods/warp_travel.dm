@@ -4,7 +4,7 @@
 /obj/warp_beacon
 	name = "warp beacon"
 	desc = "Part of an elaborate small-ship teleportation network recently deployed by Nanotrasen.  Probably won't cause you to die."
-	icon = 'icons/obj/ship.dmi'
+	icon = 'icons/obj/vehicles/ship.dmi'
 	icon_state = "beacon"
 	anchored = 1
 	density = 1
@@ -180,7 +180,7 @@
 /obj/beacon_deployer
 	name = "warp buoy unit"
 	desc = "A compact anchor for teleportation technology, held together by cut-rate construction supplies. What could possibly go wrong?"
-	icon = 'icons/obj/ship.dmi'
+	icon = 'icons/obj/vehicles/ship.dmi'
 	icon_state = "beaconunit"
 	density = 1
 	var/tile_range = 2
@@ -253,7 +253,7 @@
 /obj/beaconkit
 	name = "warp buoy frame"
 	desc = "A partially completed frame for a deployable warp buoy. It's missing rods for its stand."
-	icon = 'icons/obj/ship.dmi'
+	icon = 'icons/obj/vehicles/ship.dmi'
 	icon_state = "beacframe_1"
 	density = 1
 	var/state = 1

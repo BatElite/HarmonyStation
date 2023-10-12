@@ -67,7 +67,7 @@
 /obj/machinery/nanofab
 	name = "Nano-fabricator"
 	desc = "A more complicated sibling to the manufacturers, this machine can make things that inherit material properties."// this isnt super good but it's better than what it was
-	icon = 'icons/obj/manufacturer.dmi'
+	icon = 'icons/obj/machines/manufacturer.dmi'
 	icon_state = "fab2-on"
 	anchored = 1
 	density = 1

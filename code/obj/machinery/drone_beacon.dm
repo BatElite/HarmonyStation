@@ -5,7 +5,7 @@
 /obj/machinery/drone_beacon
 	name = "Mysterious Beacon"
 	desc = "Some strange transmitter."
-	icon = 'icons/obj/ship.dmi'
+	icon = 'icons/obj/vehicles/ship.dmi'
 	icon_state = "beacon_synd"
 	anchored = TRUE
 	density = TRUE

@@ -789,7 +789,7 @@ ABSTRACT_TYPE(/obj/machinery/macrofab/pod_wars)
 ABSTRACT_TYPE(/obj/machinery/vehicle/pod_wars_dingy)
 /obj/machinery/vehicle/pod_wars_dingy
 	name = "Pod"
-	icon = 'icons/obj/ship.dmi'
+	icon = 'icons/obj/vehicles/ship.dmi'
 	icon_state = "pod"
 	capacity = 1
 	health = 100

@@ -7,7 +7,7 @@
 /obj/machinery/manufacturer
 	name = "manufacturing unit"
 	desc = "A 3D printer-like machine that can construct items from raw materials."
-	icon = 'icons/obj/manufacturer.dmi'
+	icon = 'icons/obj/machines/manufacturer.dmi'
 	icon_state = "fab-general"
 	var/icon_base = "general" //! This is used to make icon state changes cleaner by setting it to "fab-[icon_base]"
 	density = TRUE
@@ -98,9 +98,9 @@
 
 		src.create_reagents(1000)
 
-		src.work_display = image('icons/obj/manufacturer.dmi', "")
-		src.activity_display = image('icons/obj/manufacturer.dmi', "")
-		src.panel_sprite = image('icons/obj/manufacturer.dmi', "")
+		src.work_display = image('icons/obj/machines/manufacturer.dmi', "")
+		src.activity_display = image('icons/obj/machines/manufacturer.dmi', "")
+		src.panel_sprite = image('icons/obj/machines/manufacturer.dmi', "")
 		SPAWN(0)
 			src.build_icon()
 

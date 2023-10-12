@@ -1,7 +1,7 @@
 /obj/critter/gunbot/drone
 	name = "Syndicate Drone"
 	desc = "An armed and automated Syndicate scout drone."
-	icon = 'icons/obj/ship.dmi'
+	icon = 'icons/obj/vehicles/ship.dmi'
 	icon_state = "drone"
 	density = 1
 	health = 65
@@ -470,7 +470,7 @@
 
 	virtual
 		applyDeathState()
-			overlays += image('icons/obj/ship.dmi', "dying-overlay")
+			overlays += image('icons/obj/vehicles/ship.dmi', "dying-overlay")
 
 		laserdrone
 			name = "Virtual Laser Drone"
