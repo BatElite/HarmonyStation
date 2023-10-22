@@ -1825,6 +1825,7 @@ var/datum/preMapLoad/preMapLoad = new
 #include "code\WorkInProgress\apiFallbackRoutes.dm"
 #include "code\WorkInProgress\AzrunStuff.dm"
 #include "code\WorkInProgress\Azungarstuff.dm"
+#include "code\WorkInProgress\BatElite.dm"
 #include "code\WorkInProgress\batman.dm"
 #include "code\WorkInProgress\blueprints.dm"
 #include "code\WorkInProgress\cabinet.dm"

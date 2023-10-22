@@ -253,11 +253,12 @@
 		..()
 		src.add_topping(0)
 
-/obj/item/reagent_containers/food/snacks/pizza/fresh
+//unnecessary, custom pizza recipe does plain pizzas too.
+/*/obj/item/reagent_containers/food/snacks/pizza/fresh
     name = "fresh pizza"
     desc = "A cheesy pizza pie with thick tomato sauce."
     icon_state = "cheesy"
-    sliced_icon = "cheesy-slice"
+    sliced_icon = "cheesy-slice"*/
 
 /obj/item/reagent_containers/food/snacks/pizza/ball
     name = "fresh meatball pizza"
@@ -266,13 +267,13 @@
     sliced_icon = "meatball-slice"
 
 /obj/item/reagent_containers/food/snacks/pizza/pepper
-    name = "fresh pepperoni  pizza"
+    name = "fresh pepperoni pizza"
     desc = "A cheesy pizza pie toped with bright red sizzling pepperoni slices."
     icon_state = "peper"
     sliced_icon = "peper-slice"
 
 /obj/item/reagent_containers/food/snacks/pizza/shroom
-    name = "fresh mushroom  pizza"
+    name = "fresh mushroom pizza"
     desc = "A pizza pie toped fresh picked mushrooms."
     icon_state = "shroom"
     sliced_icon = "shroom-slice"
