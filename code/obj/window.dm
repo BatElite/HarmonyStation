@@ -447,6 +447,9 @@
 		else if (iswrenchingtool(W) && src.state == 0 && !src.anchored)
 			actions.start(new /datum/action/bar/icon/deconstruct_window(src, W), user)
 
+		else if (istype(W, /obj/item/tile) && istype(src.loc, /turf/space))
+			src.loc.Attackby(W, user) //holes under windows are awful to deal with
+
 		else if (istype(W, /obj/item/grab))
 			var/obj/item/grab/G = W
 			if (ishuman(G.affecting) && BOUNDS_DIST(G.affecting, src) == 0)
