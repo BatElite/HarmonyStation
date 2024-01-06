@@ -270,6 +270,21 @@
 			rad = create_screen("rad","Radiation Warning", src.icon_hud, "rad0", "EAST-7, NORTH", HUD_LAYER, tooltipTheme = "statusRad")
 			rad.desc = "This indicator warns that you are irradiated. You will take toxic and burn damage until the situation is remedied."
 
+			add_hud_zone("health_n_atmos", 1, "EAST", "NORTH", 9, 1, 0, 0, WEST, SOUTH,\
+			list(list(health, "health"),\
+				list(health_brute, "health"),\
+				list(health_burn, "health"),\
+				list(health_tox, "health"),\
+				list(health_oxy, "health"),\
+				list(stamina, "stamina"),\
+				list(stamina_back, "stamina"),\
+				"bodytemp" = bodytemp,\
+				"bleeding" = bleeding,\
+				"oxygen" = oxygen,\
+				"fire" = fire,\
+				"toxin" = toxin,\
+				"rad" = rad))
+
 			ability_toggle = create_screen("ability", "Toggle Ability Hotbar", src.icon_hud, "[layouts[layout_style]["ability_icon"]]1", layouts[layout_style]["abiltoggle"], HUD_LAYER)
 			stats = create_screen("stats", "Character stats", src.icon_hud, "stats", layouts[layout_style]["stats"], HUD_LAYER,
 				tooltipTheme = master?.client?.preferences?.hud_style == "New" ? "newhud" : "item")
@@ -301,6 +316,16 @@
 			update_indicators()
 			update_ability_hotbar()
 
+			//"and" = create_screen("mbrute","Brute Damage", src.icon_hud, "blood2", "EAST, NORTH", HUD_LAYER, tooltipTheme = "healthDam healthDam0", customType = /atom/movable/screen/hud/dieonclick),
+			/*add_hud_zone("test", 1, "WEST+3", "NORTH-3", 4, 2, 3, 3, EAST, SOUTH,\
+			list("im" = create_screen("mbrute","Brute Damage", src.icon_hud, "blood1", "EAST, NORTH", HUD_LAYER, tooltipTheme = "healthDam healthDam0", customType = /atom/movable/screen/hud/dieonclick),\
+				"gay" = create_screen("mbrute","Brute Damage", src.icon_hud, "blood1", "EAST, NORTH", HUD_LAYER, tooltipTheme = "healthDam healthDam0", customType = /atom/movable/screen/hud/dieonclick),\
+				"spacer1" = "spacer",\
+				"hecking" = create_screen("mbrute","Brute Damage", src.icon_hud, "blood2", "EAST, NORTH", HUD_LAYER, tooltipTheme = "healthDam healthDam0", customType = /atom/movable/screen/hud/dieonclick),\
+				"goshdarn" = create_screen("mbrute","Brute Damage", src.icon_hud, "blood3", "EAST, NORTH", HUD_LAYER, tooltipTheme = "healthDam healthDam0", customType = /atom/movable/screen/hud/dieonclick),\
+				"ur" = create_screen("mbrute","Brute Damage", src.icon_hud, "temp0", "EAST, NORTH", HUD_LAYER, tooltipTheme = "healthDam healthDam0", customType = /atom/movable/screen/hud/dieonclick),\
+				"too" = create_screen("mbrute","Brute Damage", src.icon_hud, "temp1", "EAST, NORTH", HUD_LAYER, tooltipTheme = "healthDam healthDam0", customType = /atom/movable/screen/hud/dieonclick)))
+			*/
 			master?.update_equipment_screen_loc()
 
 	relay_click(id, mob/user, list/params)
@@ -1256,3 +1281,22 @@
 				//src.hud.alpha = 255
 				src.hud.sel.appearance = src.hud.default_sel_appearance
 				src.hud.sel.filters = null
+/*
+/mob/living/carbon/human/verb/add_hud_zone_element()
+	set name = "0 add hud zone element :3"
+	set category = "Commands"
+
+	hud.register_element("test", hud.create_screen("mbrute","Brute Damage", hud.icon_hud, "blood3", "EAST, NORTH", HUD_LAYER, tooltipTheme = "healthDam healthDam0", customType = /atom/movable/screen/hud/dieonclick), "verby[rand(1,1000)]")
+	hud.display_zone("test")
+
+/mob/living/carbon/human/verb/open_hud_vars()
+	set name = "0 open hud vars :3"
+	set category = "Commands"
+
+	client.debug_variables(src.hud)
+
+/atom/movable/screen/hud/dieonclick
+	clicked(list/params)
+		var/mob/living/carbon/human/sdg = usr
+		if (istype(sdg))
+			sdg.hud.unregister_element("test", src)*/
