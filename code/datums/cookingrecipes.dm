@@ -809,11 +809,9 @@ ABSTRACT_TYPE(/datum/cookingrecipe)
 		var/obj/item/reagent_containers/food/snacks/pizza/customPizza = new /obj/item/reagent_containers/food/snacks/pizza (ourCooker)
 
 		for (var/obj/item/reagent_containers/food/snacks/ingredient/pizza3/P in ourCooker)
-			var/toppingstext = null
 			if(P.toppingstext)
-				toppingstext = P.toppingstext
-				customPizza.name = "[toppingstext] pizza"
-				customPizza.desc = "A pizza with [toppingstext] toppings. Looks pretty [pick("good","dang good","delicious","scrumptious","heavenly","alright")]."
+				customPizza.name = "[P.toppingstext] pizza"
+				customPizza.desc = "A pizza with [P.toppingstext] toppings. Looks pretty [pick("good","dang good","delicious","scrumptious","heavenly","alright")]."
 			else
 				customPizza.name = "fresh pizza"//name and desc taken from /obj/item/reagent_containers/food/snacks/pizza/fresh
 				customPizza.desc = 	"A cheesy pizza pie with thick tomato sauce. Looks pretty alright."

@@ -334,7 +334,7 @@
 	initial_volume = 5
 	initial_reagents = "cheese"
 	sliceable = TRUE
-	slice_product = /obj/item/reagent_containers/food/snacks/ingredient/cheeseslice
+	slice_product = /obj/item/reagent_containers/food/snacks/ingredient/sliced/cheese//cheeseslice
 	slice_amount = 4
 
 /obj/item/reagent_containers/food/snacks/ingredient/gcheese
@@ -349,7 +349,7 @@
 	initial_reagents = list("mercury"=5,"LSD"=5,"ethanol"=5,"gcheese"=5)
 	food_effects = list("food_sweaty","food_bad_breath")
 	sliceable = TRUE
-	slice_product = /obj/item/reagent_containers/food/snacks/ingredient/gcheeseslice
+	slice_product = /obj/item/reagent_containers/food/snacks/ingredient/sliced/gcheese
 	slice_amount = 4
 
 /obj/item/reagent_containers/food/snacks/ingredient/pancake_batter
@@ -758,7 +758,7 @@ ABSTRACT_TYPE(/obj/item/reagent_containers/food/snacks/ingredient/wheat_noodles)
 /obj/item/reagent_containers/food/snacks/ingredient/wheat_noodles
 	name = "wheat noodles"
 	heal_amt = 0
-	amount = 1
+	bites_left = 1
 
 	heal(var/mob/M)
 		boutput(M, "<span class='alert'>Ew, disgusting...</span>")
@@ -869,7 +869,7 @@ obj/item/reagent_containers/food/snacks/ingredient/pepperoni_log
 	initial_volume = 40
 	initial_reagents = "pepperoni"
 	sliceable = TRUE
-	slice_product = /obj/item/reagent_containers/food/snacks/ingredient/pepperoni
+	slice_product = /obj/item/reagent_containers/food/snacks/ingredient/sliced/pepperoni
 	slice_amount = 4
 
 
@@ -877,12 +877,13 @@ obj/item/reagent_containers/food/snacks/ingredient/pepperoni_log
 	name = "fish paste"
 	desc = "An unappetizing clump of mashed fish bits."
 	icon_state = "fishpaste"
-	amount = 1
+	bites_left = 1
+
 /obj/item/reagent_containers/food/snacks/ingredient/kamaboko
 	name = "kamaboko"
 	desc = "A slice of fish cake with a cute little spiral in the center."
 	icon_state = "kamaboko"
-	amount = 1
+	bites_left = 1
 	custom_food = 1
 	food_color = "#ffffff"
 
@@ -890,7 +891,7 @@ obj/item/reagent_containers/food/snacks/ingredient/pepperoni_log
 	name = "kamaboko log"
 	desc = "What a strange-looking fish."
 	icon_state = "kamaboko-log"
-	amount = 3
+	bites_left = 3
 	custom_food = 1
 	food_color = "#ffffff"
 	doants = 0
@@ -949,3 +950,47 @@ obj/item/reagent_containers/food/snacks/ingredient/pepperoni_log
 	initial_volume = 15
 	initial_reagents = list("mercury"=1,"LSD"=1,"ethanol"=1,"gcheese"=1)
 	food_effects = list("food_sweaty","food_bad_breath")
+
+//I would like cooking to be a little more grounded than tossing an entire onion and a literal box of oatmeal into an oven to make haggis
+//But I also don't want to get into the weeds of different ways to cut ingredients
+//So rather than having cubed tomatoes be different from sliced tomatoes be different from chunked tomatoes,
+//it's all a pile of indistinct cut ingredient until you use it in something.
+//Probably drawing the line at pureed tomato though, that would be a reagent instead.
+ABSTRACT_TYPE(/obj/item/reagent_containers/food/snacks/ingredient/sliced)
+/obj/item/reagent_containers/food/snacks/ingredient/sliced
+	name = "abstractly sliced matter"
+	desc = "It could be sliced. It could be diced. It could be grated. It could be anything."
+	max_stack = 200
+	icon_state = "chopped_stuff"
+
+	New(loc, set_amount)
+		..()
+		amount = set_amount
+		bites_left = ceil(amount/5)
+
+	after_stack(atom/movable/O, mob/user, added)
+		bites_left = ceil(amount/5)
+
+	on_bite(mob/eater, mob/feeder)
+		..()
+		src.change_stack_amount(-min(amount, 5))
+
+	attackby(obj/item/W, mob/user)
+		if (!stack_item(W))
+			..()
+
+/obj/item/reagent_containers/food/snacks/ingredient/sliced/tomato
+	name = "sliced tomato"
+	color = "#FFAA99"
+/obj/item/reagent_containers/food/snacks/ingredient/sliced/pineapple
+	name = "sliced pineapple"
+	color = "#DDBB44"
+/obj/item/reagent_containers/food/snacks/ingredient/sliced/pepperoni
+	name = "sliced pepperoni"
+	color = "#F08844"
+/obj/item/reagent_containers/food/snacks/ingredient/sliced/cheese
+	name = "sliced cheese"
+	color = "#EEDD22"
+/obj/item/reagent_containers/food/snacks/ingredient/sliced/gcheese
+	name = "sliced green cheese"
+	color = "#66DD66"

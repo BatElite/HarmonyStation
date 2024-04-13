@@ -83,7 +83,7 @@ ABSTRACT_TYPE(/obj/item/reagent/containers/food/snacks/plant)
 	force = 0
 	validforhat = 1
 	sliceable = TRUE
-	slice_product = /obj/item/reagent_containers/food/snacks/ingredient/tomatoslice
+	slice_product = /obj/item/reagent_containers/food/snacks/ingredient/sliced/tomato
 	slice_amount = 3
 
 	throw_impact(atom/A, datum/thrown_thing/thr)
@@ -1294,7 +1294,7 @@ ABSTRACT_TYPE(/obj/item/reagent/containers/food/snacks/plant)
 	planttype = /datum/plant/fruit/pineapple
 	sliceable = TRUE
 	slice_amount = 4
-	slice_product = /obj/item/reagent_containers/food/snacks/plant/pineappleslice
+	slice_product = /obj/item/reagent_containers/food/snacks/ingredient/sliced/pineapple
 	throwforce = 7
 	w_class = W_CLASS_NORMAL
 	edible = FALSE
