@@ -645,7 +645,7 @@ TYPEINFO_NEW(/turf/simulated/wall/auto/myotis)
 	icon = 'icons/turf/walls_myotis.dmi'
 	mod = "myotis-"
 	//icon_state = "oldr"
-	light_mod = "wall-myotis-v5-"
+	light_mod = "wall-myotis-"
 	flags = ALWAYS_SOLID_FLUID | IS_PERSPECTIVE_FLUID
 
 TYPEINFO(/turf/simulated/wall/auto/reinforced/myotis)
@@ -671,7 +671,7 @@ TYPEINFO_NEW(/turf/simulated/wall/auto/reinforced/myotis)
 /turf/simulated/wall/auto/reinforced/myotis
 	icon = 'icons/turf/walls_myotis.dmi'
 	mod = "myotis-R-"
-	light_mod = "wall-myotis-v5-"
+	light_mod = "wall-myotis-R-"
 	flags = ALWAYS_SOLID_FLUID | IS_PERSPECTIVE_FLUID
 
 /* ===================================================== */
