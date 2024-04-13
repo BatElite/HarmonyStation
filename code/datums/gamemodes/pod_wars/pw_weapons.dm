@@ -51,7 +51,7 @@
 		projectiles = list(current_projectile)
 		src.indicator_display = image('icons/obj/items/gun.dmi', "")
 		if(istype(loc, /mob/living))
-			RegisterSignal(loc, COMSIG_MOB_DEATH, .proc/stop_charging)
+			RegisterSignal(loc, COMSIG_MOB_DEATH, PROC_REF(stop_charging))
 		..()
 
 

@@ -27,9 +27,9 @@ TYPEINFO(/datum/component/bullet_holes)
 	src.impact_image_base = image('icons/obj/projectiles.dmi', "blank")
 	src.impact_image_base.blend_mode = BLEND_INSET_OVERLAY // so the holes don't go over the edge of things
 
-	RegisterSignal(parent, COMSIG_ATOM_HITBY_PROJ, .proc/handle_impact)
-	RegisterSignal(parent, COMSIG_UPDATE_ICON, .proc/redraw_impacts) // just in case
-	RegisterSignal(parent, COMSIG_ATOM_EXAMINE, .proc/get_examine_msg)
+	RegisterSignal(parent, COMSIG_ATOM_HITBY_PROJ, PROC_REF(handle_impact))
+	RegisterSignal(parent, COMSIG_UPDATE_ICON, PROC_REF(redraw_impacts)) // just in case
+	RegisterSignal(parent, COMSIG_ATOM_EXAMINE, PROC_REF(get_examine_msg))
 
 
 /datum/component/bullet_holes/proc/handle_impact(rendering_on, obj/projectile/shot)

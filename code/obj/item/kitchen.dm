@@ -565,8 +565,8 @@ TRAYS
 		food.appearance_flags |= RESET_COLOR | RESET_ALPHA | RESET_TRANSFORM
 		food.vis_flags |= VIS_INHERIT_PLANE | VIS_INHERIT_LAYER
 		food.flags |= NO_MOUSEDROP_QOL
-		RegisterSignal(food, COMSIG_ATOM_MOUSEDROP, .proc/indirect_pickup)
-		RegisterSignal(food, COMSIG_MOVABLE_MOVED, .proc/remove_contents)
+		RegisterSignal(food, COMSIG_ATOM_MOUSEDROP, PROC_REF(indirect_pickup))
+		RegisterSignal(food, COMSIG_MOVABLE_MOVED, PROC_REF(remove_contents))
 
 	/// Removes a piece of food from the plate
 	proc/remove_contents(var/obj/item/food)

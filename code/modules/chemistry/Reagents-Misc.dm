@@ -509,7 +509,7 @@ datum
 			on_add()
 				..()
 				if(ismob(src.holder?.my_atom))
-					RegisterSignal(holder.my_atom, COMSIG_MOB_SHOCKED_DEFIB, .proc/revive)
+					RegisterSignal(holder.my_atom, COMSIG_MOB_SHOCKED_DEFIB, PROC_REF(revive))
 
 			on_remove()
 				..()
@@ -1816,7 +1816,7 @@ datum
 				boutput(M, "<span class='notice'>You feel loved!</span>")
 
 			initial_metabolize(mob/M)
-				RegisterSignal(M, COMSIG_MOB_SET_A_INTENT, .proc/no_harm)
+				RegisterSignal(M, COMSIG_MOB_SET_A_INTENT, PROC_REF(no_harm))
 
 			on_mob_life_complete(mob/M)
 				UnregisterSignal(M, COMSIG_MOB_SET_A_INTENT)
@@ -2842,8 +2842,8 @@ datum
 			on_add()
 				..()
 				if(ismob(src.holder?.my_atom))
-					RegisterSignal(holder.my_atom, COMSIG_ATTACKBY, .proc/zap_dude)
-					RegisterSignal(holder.my_atom, COMSIG_ATTACKHAND, .proc/zap_dude_punching)
+					RegisterSignal(holder.my_atom, COMSIG_ATTACKBY, PROC_REF(zap_dude))
+					RegisterSignal(holder.my_atom, COMSIG_ATTACKHAND, PROC_REF(zap_dude_punching))
 
 			on_remove()
 				..()

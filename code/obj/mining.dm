@@ -1974,7 +1974,7 @@ obj/item/clothing/gloves/concussive
 
 		var/cell = new cell_type
 		AddComponent(/datum/component/cell_holder, cell, swappable = FALSE)
-		RegisterSignal(GLOBAL_SIGNAL, COMSIG_GLOBAL_CARGO_PAD_DISABLED, .proc/maybe_reset_target) //make sure cargo pads can GC
+		RegisterSignal(GLOBAL_SIGNAL, COMSIG_GLOBAL_CARGO_PAD_DISABLED, PROC_REF(maybe_reset_target)) //make sure cargo pads can GC
 
 	proc/maybe_reset_target(datum/dummy, var/obj/submachine/cargopad/pad)
 		if (target == pad)
@@ -2041,7 +2041,7 @@ obj/item/clothing/gloves/concussive
 
 		boutput(user, "<span class='notice'>Teleporting [cargo]...</span>")
 		playsound(user.loc, "sound/machines/click.ogg", 50, 1)
-		SETUP_GENERIC_PRIVATE_ACTIONBAR(user, src, 3 SECONDS, .proc/finish_teleport, list(cargo, user), null, null, null, null)
+		SETUP_GENERIC_PRIVATE_ACTIONBAR(user, src, 3 SECONDS, PROC_REF(finish_teleport), list(cargo, user), null, null, null, null)
 		return TRUE
 
 
@@ -2337,8 +2337,8 @@ obj/item/clothing/gloves/concussive
 
 	New()
 		..()
-		RegisterSignal(GLOBAL_SIGNAL, COMSIG_GLOBAL_CARGO_PAD_ENABLED, .proc/add_pad)
-		RegisterSignal(GLOBAL_SIGNAL, COMSIG_GLOBAL_CARGO_PAD_DISABLED, .proc/remove_pad)
+		RegisterSignal(GLOBAL_SIGNAL, COMSIG_GLOBAL_CARGO_PAD_ENABLED, PROC_REF(add_pad))
+		RegisterSignal(GLOBAL_SIGNAL, COMSIG_GLOBAL_CARGO_PAD_DISABLED, PROC_REF(remove_pad))
 
 	/// Add a pad to the global pads list. Do nothing if the pad is already in the pads list.
 	proc/add_pad(datum/holder, obj/submachine/cargopad/pad)

@@ -830,7 +830,7 @@
 	New()
 		src.tier = world.load_intra_round_value("heisenbee_tier")
 		src.original_tier = src.tier
-		src.RegisterSignal(GLOBAL_SIGNAL, COMSIG_GLOBAL_REBOOT, .proc/save_upgraded_tier)
+		src.RegisterSignal(GLOBAL_SIGNAL, COMSIG_GLOBAL_REBOOT, PROC_REF(save_upgraded_tier))
 		heisentier_hat()
 		..()
 

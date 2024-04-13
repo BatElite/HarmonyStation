@@ -8,7 +8,7 @@ TYPEINFO(/datum/component/waddling)
 	. = ..()
 	if(!isliving(parent))
 		return COMPONENT_INCOMPATIBLE
-	RegisterSignal(parent, COMSIG_MOVABLE_MOVED, .proc/Waddle)
+	RegisterSignal(parent, COMSIG_MOVABLE_MOVED, PROC_REF(Waddle))
 
 /datum/component/waddling/proc/Waddle()
 	var/mob/living/L = parent

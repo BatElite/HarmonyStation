@@ -72,7 +72,7 @@
 		src.contexts += new type
 	APPLY_ATOM_PROPERTY(src, PROP_ATOM_FLOCK_THING, src)
 	src.AddComponent(/datum/component/flock_protection, FALSE, FALSE, FALSE, FALSE)
-	src.RegisterSignal(src, COMSIG_MOB_GRABBED, .proc/do_antigrab)
+	src.RegisterSignal(src, COMSIG_MOB_GRABBED, PROC_REF(do_antigrab))
 
 /mob/living/critter/flock/drone/proc/do_antigrab(source, obj/item/grab/grab)
 	if(src.ai_paused) //wake up when grabbed
@@ -297,7 +297,7 @@
 	src.visible_message("<span class='notice'><b>[src]</b> begins to glow and hover.</span>")
 	src.set_a_intent(INTENT_HELP)
 	src.add_simple_light("drone_light", rgb2num(glow_color))
-	src.RegisterSignal(src, COMSIG_MOB_GRABBED, .proc/do_antigrab)
+	src.RegisterSignal(src, COMSIG_MOB_GRABBED, PROC_REF(do_antigrab))
 	if(src.client)
 		controller = new/mob/living/intangible/flock/trace(src, src.flock)
 		src.is_npc = FALSE

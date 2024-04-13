@@ -1772,7 +1772,7 @@
 		owner.color = color2
 		owner.onVarChanged("color", oldcol, color2)
 		if(istype(owner, /mob/living))
-			RegisterSignal(owner, COMSIG_MOVABLE_MOVED, .proc/track_paint)
+			RegisterSignal(owner, COMSIG_MOVABLE_MOVED, PROC_REF(track_paint))
 
 	onRemove()
 		. = ..()
@@ -2074,7 +2074,7 @@
 
 	onAdd()
 		..()
-		RegisterSignal(owner, COMSIG_MOB_VOMIT, .proc/reduce_duration_on_vomit)
+		RegisterSignal(owner, COMSIG_MOB_VOMIT, PROC_REF(reduce_duration_on_vomit))
 
 	onRemove()
 		..()
