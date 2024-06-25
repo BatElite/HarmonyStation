@@ -1412,17 +1412,15 @@
 			if(SA)
 				// If we're putting stuff in a satchel, this is where we do it.
 				for(var/obj/item/I in src.contents)
-					if(SA.contents.len >= SA.maxitems)
+					if(SA.curitems >= SA.maxitems)
 						boutput(user, "<span class='alert'>Your satchel is full! You dump the rest on the floor.</span>")
 						break
 					if(istype(I,/obj/item/seed/))
 						if(!satchelpick || satchelpick == "Seeds Only")
-							I.set_loc(SA)
-							I.add_fingerprint(user)
+							SA.add_thing(I)
 					else
 						if(!satchelpick || satchelpick == "Produce Only")
-							I.set_loc(SA)
-							I.add_fingerprint(user)
+							SA.add_thing(I)
 				SA.UpdateIcon()
 
 			// if the satchel got filled up this will dump any unharvested items on the floor

@@ -47,6 +47,7 @@ ABSTRACT_TYPE(/obj/item/atmospherics)
 ABSTRACT_TYPE(/obj/item/atmospherics/pipeframe)
 /obj/item/atmospherics/pipeframe
 	name = "the platonic ideal of atmospheric piping frame"
+	flags = FPRINT | TABLEPASS | NOSPLASH //in case someone misses the extra step for a pipe bomb
 
 	///What does this look like after welding?
 	var/icon_welded

@@ -406,6 +406,12 @@
 			light.color = "#00FF00"
 		src.UpdateOverlays(src.light, "light")
 
+	is_acceptable_content(var/atom/A)
+		. = ..()
+		//stop lootcrates from stealing the shit that falls out of asteroids
+		if (istype(A, /obj/item/raw_material))
+			return FALSE
+
 // LOCKS
 
 /datum/loot_crate_lock

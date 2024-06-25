@@ -2437,6 +2437,7 @@ var/global/datum/cargo_pad_manager/cargo_pad_manager
 	w_class = W_CLASS_SMALL
 	mats = 6
 	var/obj/item/satchel/mining/satchel = null
+	inventory_counter_enabled = TRUE
 
 	prepared
 		New()
@@ -2451,6 +2452,17 @@ var/global/datum/cargo_pad_manager/cargo_pad_manager
 			var/obj/item/satchel/mining/large/S = new /obj/item/satchel/mining/large(src)
 			satchel = S
 
+	//attack_self can just dump on the floor as usual for all I care, but let me unload the dang satchel directly thanks
+	attack_hand(mob/user)
+		if (user.is_in_hands(src) && satchel)
+			user.visible_message("[user] unloads [satchel] from [src].", "You unload [satchel] from [src].")
+			user.put_in_hand_or_drop(satchel)
+			satchel = null
+			icon_state = "scoop"
+			inventory_counter.hide_count()
+		else
+			..()
+
 	attackby(obj/item/W, mob/user)
 		if (istype(W,/obj/item/satchel/mining/))
 			if (!issilicon(user))
@@ -2461,6 +2473,8 @@ var/global/datum/cargo_pad_manager/cargo_pad_manager
 				S.set_loc(src)
 				satchel = S
 				icon_state = "scoop-bag"
+				inventory_counter.show_count()
+				inventory_counter.update_number(satchel.curitems)
 				user.visible_message("[user] inserts [S] into [src].", "You insert [S] into [src].")
 			else
 				boutput(user, "<span class='alert'>The satchel is firmly secured to the scoop.</span>")
@@ -2471,12 +2485,13 @@ var/global/datum/cargo_pad_manager/cargo_pad_manager
 	attack_self(var/mob/user as mob)
 		if(!issilicon(user))
 			if (satchel)
-				user.visible_message("[user] unloads [satchel] from [src].", "You unload [satchel] from [src].")
+				user.visible_message("[user] ejects [satchel] from [src].", "You eject [satchel] from [src].")
 				user.put_in_hand_or_drop(satchel)
 				satchel = null
 				icon_state = "scoop"
+				inventory_counter.hide_count()
 			else
-				boutput(user, "<span class='alert'>There's no satchel in [src] to unload.</span>")
+				boutput(user, "<span class='alert'>There's no satchel in [src] to eject.</span>")
 		else
 			boutput(user, "<span class='alert'>The satchel is firmly secured to the scoop.</span>")
 

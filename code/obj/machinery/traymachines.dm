@@ -544,23 +544,24 @@ ABSTRACT_TYPE(/obj/machine_tray)
 
 	New()
 		..()
-		tanningtube = new /obj/item/light/tube(src)
+		tanningtube = new /obj/item/light/tube/blacklight(src)
 		tanningtube.name = "stock tanning light tube"
 		tanningtube.desc = "Fancy. But not really."
-		tanningtube.color_r = 0.7
+		/*tanningtube.color_r = 0.7 (tube colour was pinkish because no inversion was being done)
 		tanningtube.color_g = 0.5
-		tanningtube.color_b = 0.3
+		tanningtube.color_b = 0.3*/
 
 		light = new /datum/light/point
 		light.attach(src)
 		light.set_brightness(0.5)
 		light.set_color(tanningtube.color_r, tanningtube.color_g, tanningtube.color_b)
 
-		var/tanningtubecolor = rgb(tanningtube.color_r * 255, tanningtube.color_b * 255, tanningtube.color_g * 255)
+		var/tanningtubecolor = rgb(tanningtube.color_r * 255, tanningtube.color_g * 255, tanningtube.color_b * 255)
+		var/actualtanningcolor = rgb((1 - tanningtube.color_r) * 255, (1 - tanningtube.color_g) * 255, (1 - tanningtube.color_b) * 255) //invert from tube colour
 
 		generate_overlay_icon(tanningtubecolor)
 
-		send_new_tancolor(tanningtubecolor)
+		send_new_tancolor(actualtanningcolor)
 
 	disposing()
 		src.tanningtube = null
@@ -575,9 +576,10 @@ ABSTRACT_TYPE(/obj/machine_tray)
 			user.drop_item()
 			G.set_loc(src)
 			src.tanningtube = G
-			var/tanningtubecolor = rgb(tanningtube.color_r * 255, tanningtube.color_b * 255, tanningtube.color_g * 255)
+			var/tanningtubecolor = rgb(tanningtube.color_r * 255, tanningtube.color_g * 255, tanningtube.color_b * 255)
+			var/actualtanningcolor = rgb((1 - tanningtube.color_r) * 255, (1 - tanningtube.color_g) * 255, (1 - tanningtube.color_b) * 255) //invert from tube colour
 			generate_overlay_icon(tanningtubecolor)
-			send_new_tancolor(tanningtubecolor)
+			send_new_tancolor(actualtanningcolor)
 			if (src.light)
 				light.set_color(tanningtube.color_r, tanningtube.color_g, tanningtube.color_b)
 				light.set_brightness(0.5)

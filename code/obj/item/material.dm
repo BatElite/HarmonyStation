@@ -41,15 +41,8 @@
 			boutput(user, "<span class='notice'>You add the ores to the stack. It now has [src.amount] ores.</span>")
 			return
 		if (istype(W, /obj/item/satchel/mining/))
-			if (W.contents.len < W:maxitems)
-				src.set_loc(W)
-				var/oreamt = length(W.contents)
-				boutput(user, "<span class='notice'>You put [src] in [W].</span>")
-				src.desc = "A leather bag. It holds [oreamt]/[W:maxitems] [W:itemstring]."
-				if (oreamt == W:maxitems) boutput(user, "<span class='notice'>[W] is now full!</span>")
-				W:UpdateIcon()
-			else
-				boutput(user, "<span class='alert'>[W] is full!</span>")
+			var/obj/item/satchel/S = W
+			S.add_thing(src, user)
 		else ..()
 
 	attack_hand(mob/user)
@@ -71,10 +64,10 @@
 		else if (isliving(AM))
 			var/mob/living/H = AM
 			var/obj/item/ore_scoop/S = H.get_equipped_ore_scoop()
-			if (S?.satchel && length(S.satchel.contents) < S.satchel.maxitems && src.scoopable)
-				src.set_loc(S.satchel)
-				S.satchel.UpdateIcon()
-				if (S.satchel.contents.len >= S.satchel.maxitems)
+			if (S?.satchel && src.scoopable)
+				S.satchel.add_thing(src)
+				S.inventory_counter.update_number(S.satchel.curitems)
+				if (S.satchel.curitems >= S.satchel.maxitems)
 					boutput(H, "<span class='alert'>Your ore scoop's satchel is full!</span>")
 					playsound(H, "sound/machines/chime.ogg", 20, 1)
 		else if (istype(AM,/obj/machinery/vehicle/))
